@@ -55,7 +55,7 @@ export {
   ListCard,
   CtaCard,
   EcommerceCard,
-  // DarkMode,
+  DarkMode,
   // list
   List,
   // Modals
