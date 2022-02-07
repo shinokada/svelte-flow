@@ -39,6 +39,7 @@
     "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium pt-1 dark:bg-gray-800";
   let topMenuDiv =
     "container flex flex-wrap flex-end justify-between items-center mx-auto dark:bg-gray-800";
+  let hamburgerClass = "fixed top-4";
 </script>
 
 <Navbar
@@ -50,6 +51,7 @@
   {topMenuDiv}
   {topul}
   {topli}
+  {hamburgerClass}
 />
 <Aside {asideClass}>
   <Nav {navClass} {navDivClass}>
@@ -114,3 +116,10 @@
     <slot />
   </div>
 </main>
+
+<style>
+  .button {
+    position: fixed;
+    top: 1rem;
+  }
+</style>
