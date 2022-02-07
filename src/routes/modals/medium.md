@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { MediumModal, ModalButton } from "$lib/index";
+  import { MediumModal, ModalButton } from "svelte-flow";
 
 
   // modal 1

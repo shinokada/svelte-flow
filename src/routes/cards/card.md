@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Card } from "$lib/index";
+  import { Card } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Card: Setup</h1>
@@ -12,7 +12,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { Card } from "$lib/index";
+  import { Card } from "svelte-flow";
 </script>
 ```
 

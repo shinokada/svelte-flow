@@ -10,7 +10,7 @@ layout: doc
     ExtraLargeModal,
     SignInModal,
     ModalButton,
-  } from "$lib/index";
+  } from "svelte-flow";
   import Prism from "prismjs";
   import "prismjs/themes/prism.css";
 

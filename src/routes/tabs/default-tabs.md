@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { DefaultTabs } from "$lib/index";
+  import { DefaultTabs } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Default Tabs</h1>

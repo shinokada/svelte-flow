@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { InteractiveTabs } from "$lib/index";
+  import { InteractiveTabs } from "svelte-flow";
 
   let tabs1 = [
     {

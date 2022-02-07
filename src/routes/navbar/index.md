@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Navbar } from "$lib/index";
+  import { Navbar } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Navbar Setup</h1>

@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import "flowbite/dist/flowbite.css";
-  import { DarkMode } from "$lib/index";
+  import { DarkMode } from "svelte-flow";
   import {
     Aside,
     Nav,

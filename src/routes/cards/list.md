@@ -1,5 +1,5 @@
 <script>
-  import { ListCard } from "$lib/index";
+  import { ListCard } from "svelte-flow";
 </script>
 
 <div class="flex flex-wrap mx-auto p-8">

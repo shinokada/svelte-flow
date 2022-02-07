@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { CtaCard } from "$lib/index";
+  import { CtaCard } from "svelte-flow";
   let title = "Be The First";
   let headColor = "gray";
   let btns = [
@@ -29,7 +29,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { CtaCard } from "$lib/index";
+  import { CtaCard } from "svelte-flow";
   let title = "Be The First";
   let headColor = "gray";
   let btns = [

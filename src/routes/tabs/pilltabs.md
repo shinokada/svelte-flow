@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { PillTabs } from "$lib/index";
+  import { PillTabs } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Pill Tabs</h1>

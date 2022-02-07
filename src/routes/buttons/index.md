@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Button } from "$lib/index";
+  import { Button } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white  pt-16">Buttons: Setup</h1>

@@ -3,14 +3,14 @@ layout: doc
 ---
 
 <script>
-  import { HorizontalCard } from "$lib/index";
+  import { HorizontalCard } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Horizontal Card: Setup</h1>
 
 ```svelte
 <script>
-  import { HorizontalCard } from "$lib/index";
+  import { HorizontalCard } from "svelte-flow";
 </script>
 ```
 

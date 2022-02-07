@@ -1,5 +1,5 @@
 <script>
-  import { Card } from "$lib/index";
+  import { Card } from "svelte-flow";
 </script>
 
 <div class="relative bg-white overflow-hidden mt-8 mx-auto dark:bg-gray-800">

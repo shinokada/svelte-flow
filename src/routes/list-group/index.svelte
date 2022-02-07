@@ -1,5 +1,5 @@
 <script>
-  import { List } from "$lib/index";
+  import { List } from "svelte-flow";
 
   let lists = [
     {

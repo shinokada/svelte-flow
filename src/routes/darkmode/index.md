@@ -8,7 +8,7 @@ layout: doc
 
 ```html
 <script>
-import { DarkMode } from "$lib/index";
+import { DarkMode } from "svelte-flow";
 </script>
 
 <Darkmode />

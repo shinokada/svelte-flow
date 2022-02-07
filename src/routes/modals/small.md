@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { SmallModal, ModalButton } from "$lib/index";
+  import { SmallModal, ModalButton } from "svelte-flow";
   import { goto } from "$app/navigation";
 
   // common

@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { LargeModal, ModalButton } from "$lib/index";
+  import { LargeModal, ModalButton } from "svelte-flow";
 
   // modal 1
   let id = "large-modal-1";

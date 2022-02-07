@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Alert, BorderAlert, InfoAlert } from "$lib/index";
+  import { Alert, BorderAlert, InfoAlert } from "svelte-flow";
 </script>
 
 <h1 class="text-3xl w-full text-gray-900 dark:text-white  pt-16">Alert: Setup</h1>

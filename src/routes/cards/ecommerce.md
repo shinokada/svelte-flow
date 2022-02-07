@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { EcommerceCard } from "$lib/index";
+  import { EcommerceCard } from "svelte-flow";
   let img2 = {
     src: "/images/product-2.jpeg",
     alt: "product image",
@@ -22,7 +22,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { EcommerceCard } from "$lib/index";
+  import { EcommerceCard } from "svelte-flow";
   let img2 = {
     src: "/images/product-2.jpeg",
     alt: "product image",
