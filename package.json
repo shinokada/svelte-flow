@@ -19,7 +19,6 @@
   "devDependencies": {
     "@codewithshin/svelte-sidebar": "^0.1.1",
     "@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-vercel": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.4.2",
     "mdsvex": "^0.10.5",
