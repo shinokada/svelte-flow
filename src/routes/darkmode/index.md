@@ -8,7 +8,7 @@ layout: doc
 
 ```html
 <script>
-import { Darkmode } from "$lib/index";
+import { DarkMode } from "$lib/index";
 </script>
 
 <Darkmode />
