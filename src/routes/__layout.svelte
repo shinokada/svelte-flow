@@ -31,7 +31,7 @@
     "py-0 px-8 bg-white text-sm bg-white dark:bg-gray-800 dark:text-white";
   let navDivClass = "pb-4";
   let navDivClasslast = "pb-24";
-  let siteClass = " pt-1.5 pl-12 sm:w-1/2";
+  let siteClass = " pt-1.5 pl-12 w-full";
   let siteText = "text-lg";
   let topli =
     "block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50  md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white text-lg z-50 bg-white dark:bg-gray-800 dark:border-0";
