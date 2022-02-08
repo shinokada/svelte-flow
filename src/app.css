@@ -17,9 +17,9 @@ pre{
 }
 
 #hamburgerBtn{
-  position: fixed;
-  top: 20px;
-  left: 22px;
+  position: absolute;
+  top: 22px;
+  left: 20px;
 }
 
 
