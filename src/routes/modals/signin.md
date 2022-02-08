@@ -12,8 +12,9 @@ layout: doc
   let btnSignInColor = "blue";
 </script>
 
-<h1 class="text-3xl w-full">Sign-in Modals: Setup</h1>
-Import SignInModal, ModalButton components and set variables in the script tag.
+<h1 class="text-3xl w-full dark:text-white">Sign-in Modals: Setup</h1>
+
+<p class="dark:text-white text-base">Import SignInModal, ModalButton components and set variables in the script tag.</p>
 
 ```svelte
 import { SignInModal, ModalButton } from "svelte-flow";
@@ -23,7 +24,7 @@ let btnSignInName = "Sign In Modal";
 let btnSignInColor = "blue";
 ```
 
-<h1 class="text-3xl w-full">SignIn Modals</h1>
+<h1 class="text-3xl w-full dark:text-white">SignIn Modals</h1>
 
 <div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton
@@ -33,7 +34,7 @@ let btnSignInColor = "blue";
   />
 </div>
 
-Create a button and modal.
+<p class="dark:text-white text-base">Create a button and modal.</p>
 
 ```svelte
 <ModalButton
