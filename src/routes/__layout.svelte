@@ -116,10 +116,3 @@
     <slot />
   </div>
 </main>
-
-<style>
-  .button {
-    position: fixed;
-    top: 1rem;
-  }
-</style>
