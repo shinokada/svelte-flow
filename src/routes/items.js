@@ -1,11 +1,11 @@
-export let components = [
-  { url: "alerts", name: "Alerts", rel: "external" },
-  { url: "buttons", name: "Buttons", rel: "external" },
-  { url: "cards", name: "Cards", rel: "external" },
-  { url: "list-group", name: "List Group", rel: "external" },
-  { url: "modals", name: "Modals", rel: "external" },
-  { url: "tabs", name: "Tabs", rel: "external" },
-];
+// export let components = [
+//   { url: "alerts", name: "Alerts", rel: "external" },
+//   { url: "buttons", name: "Buttons", rel: "external" },
+//   { url: "cards", name: "Cards", rel: "external" },
+//   { url: "list-group", name: "List Group", rel: "external" },
+//   { url: "modals", name: "Modals", rel: "external" },
+//   { url: "tabs", name: "Tabs", rel: "external" },
+// ];
 
 export let alerts = [
   { url: "alerts", name: "Alerts", rel: "external" },
@@ -44,6 +44,7 @@ export let modals = [
 
 export let navbar = [
   { url: "navbar", name: "Navbar", rel: "external" },
+  { url: "navbar/dropdown", name: "Dropdown Navbar", rel: "external" },
 ];
 
 export let tabs = [
