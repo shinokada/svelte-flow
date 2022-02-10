@@ -16,11 +16,11 @@ export let cards = [
 ];
 
 export let darkmode = [
-  { url: "darkmode", name: "Dark mode", rel: "external" },
+  { url: "darkmode", name: "Dark mode" },
 ]
 
 export let list_group = [
-  { url: "list-group", name: "List group", rel: "external" },
+  { url: "list-group", name: "List group" },
 ];
 
 export let modals = [
