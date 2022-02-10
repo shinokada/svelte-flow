@@ -5,7 +5,6 @@ layout: doc
 <script>
   import { MediumModal, ModalButton } from "svelte-flow";
 
-
   // modal 1
   const id = "basic-modal";
   const btnBasicName = "Medium Modal for information";

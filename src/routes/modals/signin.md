@@ -4,8 +4,6 @@ layout: doc
 
 <script>
   import { SignInModal, ModalButton } from "svelte-flow";
-  import Prism from "prismjs";
-  import "prismjs/themes/prism.css";
 
   let signinId = "signin-modal2";
   let btnSignInName = "Sign In Modal";
