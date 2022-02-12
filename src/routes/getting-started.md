@@ -31,33 +31,9 @@ npm i -D svelte-flow
   import "../app.css";
   import "flowbite/dist/flowbite.css";
 </script>
+
+<slot />
 ```
 
-<p class="dark:text-white">Add the following in the script tag in the __layout.svelte :</p>
-
-```html
-<div class="mx-auto p-2">
-  <slot />
-</div>
-```
-
-<p class="dark:text-white">And modify the src/app.html adding flowbite.js as the following:</p>
-
-```html
-<!DOCTYPE html />
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="" />
-    <link rel="icon" href="%svelte.assets%/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    %svelte.head%
-  </head>
-  <body>
-    <div id="svelte">%svelte.body%</div>
-    <script src="https://unpkg.com/flowbite@1.3.2/dist/flowbite.js">
-  </body>
-</html>
-```
 
 
