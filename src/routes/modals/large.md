@@ -3,7 +3,13 @@ layout: doc
 ---
 
 <script>
-  import { LargeModal, ModalButton } from "svelte-flow";
+  import { LargeModal, ModalButton, modalIdStore } from "svelte-flow";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
   // modal 1
   let id = "large-modal-1";
@@ -24,57 +30,67 @@ layout: doc
 
   const handlebtn1 = () => {
     alert("handlebtn1 is clicked from a parent page.");
-    toggleModal(id1, false);
+    closeModal()
   };
 
   const handlebtn2 = () => {
     alert("handlebtn2 is clicked from a parent page.");
-    toggleModal(id2, false);
+    closeModal()
   };
 
   const handlebtn3 = () => {
     alert("handlebtn3 is clicked from a parent page.");
-    toggleModal(id2, false);
+    closeModal()
   };
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Large Modals: Setup</h1>
 
-<p class="dark:text-white"> Import SmallModal and ModalButton components and set variables in the script tag.</p>
+<p class="dark:text-white my-4">Import LargeModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
+
 
 ```svelte
-import { LargeModal, ModalButton } from 'svelte-flow'
-// modal 1
-let id = "large-modal-1";
-let btnName = "Large Modal Simple";
+<script>
+  import { LargeModal, ModalButton, modalIdStore } from "svelte-flow";
 
-// Modal 1
-let id1 = "large-modal-2";
-let btnName1 = "Large modal with one button";
-let btnColor1 = "yellow";
-let btn1 = "Close";
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
-// Modal 2
-let id2 = "large-modal-3";
-let btnName2 = "Large modal with two buttons";
-let btnColor2 = "red";
-let btn2 = "Read more";
-let btn3 = "Close";
+  // modal 1
+  let id = "large-modal-1";
+  let btnName = "Large Modal Simple";
 
-const handlebtn1 = () => {
-  alert("handlebtn1 is clicked from a parent page.");
-  toggleModal(id1, false);
-};
+  // Modal 1
+  let id1 = "large-modal-2";
+  let btnName1 = "Large modal with one button";
+  let btnColor1 = "yellow";
+  let btn1 = "Close";
 
-const handlebtn2 = () => {
-  alert("handlebtn2 is clicked from a parent page.");
-  toggleModal(id2, false);
-};
+  // Modal 2
+  let id2 = "large-modal-3";
+  let btnName2 = "Large modal with two buttons";
+  let btnColor2 = "red";
+  let btn2 = "Read more";
+  let btn3 = "Close";
 
-const handlebtn3 = () => {
-  alert("handlebtn3 is clicked from a parent page.");
-  toggleModal(id2, false);
-};
+  const handlebtn1 = () => {
+    alert("handlebtn1 is clicked from a parent page.");
+    closeModal()
+  };
+
+  const handlebtn2 = () => {
+    alert("handlebtn2 is clicked from a parent page.");
+    closeModal()
+  };
+
+  const handlebtn3 = () => {
+    alert("handlebtn3 is clicked from a parent page.");
+    closeModal()
+  };
+</script>
 ```
 
 <h1 class="text-3xl w-full dark:text-white">Large Modals</h1>

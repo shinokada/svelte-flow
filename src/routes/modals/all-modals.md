@@ -10,9 +10,14 @@ layout: doc
     ExtraLargeModal,
     SignInModal,
     ModalButton,
+    modalIdStore
   } from "svelte-flow";
-  import Prism from "prismjs";
-  import "prismjs/themes/prism.css";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
   // small
   let smallModalId = "small-modal";
@@ -25,12 +30,12 @@ layout: doc
 
   const handlebtnS1 = () => {
     alert("handlebtnS1 is clicked from a parent page.");
-    toggleModal(smallModalId, false);
+    closeModal()
   };
 
   const handlebtnS2 = () => {
     alert("handlebtnS2 is clicked from a parent page.");
-    toggleModal(smallModalId, false);
+    closeModal()
   };
 
   // medium
@@ -44,12 +49,12 @@ layout: doc
 
   const handlebtnM1 = () => {
     alert("handlebtnM1 is clicked from a parent page.");
-    toggleModal(mediumModalId, false);
+    closeModal()
   };
 
   const handlebtnM2 = () => {
     alert("handlebtnM2 is clicked from a parent page.");
-    toggleModal(mediumModalId, false);
+    closeModal()
   };
 
   // Large
@@ -63,12 +68,12 @@ layout: doc
 
   const handlebtnL1 = () => {
     alert("handlebtnL1 is clicked from a parent page.");
-    toggleModal(largeModalId, false);
+    closeModal()
   };
 
   const handlebtnL2 = () => {
     alert("handlebtnL2 is clicked from a parent page.");
-    toggleModal(largeModalId, false);
+    closeModal()
   };
 
   // Extra Large
@@ -82,12 +87,12 @@ layout: doc
 
   const handlebtnExL1 = () => {
     alert("handlebtnExL1 is clicked from a parent page.");
-    toggleModal(extraLargeModalId, false);
+    closeModal()
   };
 
   const handlebtnExL2 = () => {
     alert("handlebtnExL2 is clicked from a parent page.");
-    toggleModal(extraLargeModalId, false);
+    closeModal()
   };
 
   // SignIn Modal
@@ -95,9 +100,9 @@ layout: doc
   let btnSignInName = "Sign In Modal";
   let btnSignInColor = "purple";
   let titleSignIn = "Sign in to our platform";
-  let lostPasswordLink = "/auth/lost-password";
-  let signUpLink = "/auth/signup";
-  let formLink = "/auth/login";
+  let lostPasswordLink = "/";
+  let signUpLink = "/about";
+  let formLink = "/modals";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">All Modals</h1>

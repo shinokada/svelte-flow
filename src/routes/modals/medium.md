@@ -3,7 +3,13 @@ layout: doc
 ---
 
 <script>
-  import { MediumModal, ModalButton } from "svelte-flow";
+  import { MediumModal, ModalButton, modalIdStore } from "svelte-flow";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
   // modal 1
   const id = "basic-modal";
@@ -16,7 +22,7 @@ layout: doc
   let textMColor = "red";
 
   const handlebtnM1 = () => {
-    toggleModal(id1, false);
+    closeModal()
   };
 
   // modal 3
@@ -26,19 +32,28 @@ layout: doc
   let btnColor2 = "purple";
 
   const handlebtnM2 = () => {
-    toggleModal(id2, false);
+    closeModal()
   };
   const handlebtnM3 = () => {
-    toggleModal(id2, false);
+    closeModal()
   };
 </script>
 
 
 <h1 class="text-3xl w-full dark:text-white">Medium Modals: Setup</h1>
-<p class="dark:text-white">Import SmallModal and ModalButton components and set variables in the script tag.</p>
+
+<p class="dark:text-white my-4">Import MediumModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
 
 ```svelte
-  import { SmallModal, ModalButton } from "svelte-flow";
+<script>
+  import { MediumModal, ModalButton, modalIdStore } from "svelte-flow";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
+
   // modal 1
   const id = "basic-modal";
   const btnBasicName = "Medium Modal for information";
@@ -50,7 +65,7 @@ layout: doc
   let textMColor = "red";
 
   const handlebtnM1 = () => {
-    toggleModal(id1, false);
+    closeModal()
   };
 
   // modal 3
@@ -60,20 +75,21 @@ layout: doc
   let btnColor2 = "purple";
 
   const handlebtnM2 = () => {
-    toggleModal(id2, false);
+    closeModal()
   };
   const handlebtnM3 = () => {
-    toggleModal(id2, false);
+    closeModal()
   };
+</script>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Medium Modals for Information</h1>
+<h1 class="text-3xl w-full dark:text-white pb-4">Medium Modals for Information</h1>
 
 <div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton {id} btnName={btnBasicName} />
 </div>
 
-<p class="dark:text-white"> Create a button and modal.</p>
+<p class="dark:text-white pb-4"> Create a button and modal.</p>
 
 ```svelte
 <ModalButton {id} btnName={btnBasicName} />
@@ -83,7 +99,7 @@ layout: doc
 </MediumModal>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Medium Modals with an Action Button</h1>
+<h1 class="text-3xl w-full dark:text-white pb-4">Medium Modals with an Action Button</h1>
 
 <div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton id={id1} btnName={btnMName} {btnColor} />
@@ -104,7 +120,7 @@ layout: doc
 </MediumModal>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Medium Modals with action buttons</h1>
+<h1 class="text-3xl w-full dark:text-white pb-8">Medium Modals with action buttons</h1>
 
 <div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton id={id2} btnName={btnName2} btnColor={btnColor2} />

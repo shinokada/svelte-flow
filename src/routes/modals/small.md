@@ -3,8 +3,14 @@ layout: doc
 ---
 
 <script>
-  import { SmallModal, ModalButton } from "svelte-flow";
+  import { SmallModal, ModalButton, modalIdStore } from "svelte-flow";
   import { goto } from "$app/navigation";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
   // common
   const textSColor = "blue";
@@ -19,12 +25,12 @@ layout: doc
   const btnColor1 = "purple";
 
   const handlebtnS1 = () => {
-    toggleModal(id1, false);
-    goto("/dummy-pages/about");
+    closeModal()
+    goto("/about");
   };
 
   const handlebtnS2 = () => {
-    toggleModal(id1, false);
+    closeModal()
   };
 
   // for small modal 2
@@ -33,68 +39,72 @@ layout: doc
   const btnColor2 = "red";
 
   const handlebtnS3 = () => {
-    toggleModal(id2, false);
+    closeModal()
   };
 
   const handlebtnS4 = () => {
-    toggleModal(id2, false);
+    closeModal()
   };
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals: Setup</h1>
 
-<p class="dark:text-white">
-Import SmallModal and ModalButton components and set variables in the
-script tag.
-</p>
+<p class="dark:text-white my-4">Import SmallModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
 
 ```svelte
 <script>
-import { SmallModal, ModalButton } from "svelte-flow";
+  import { SmallModal, ModalButton, modalIdStore } from "svelte-flow";
+  import { goto } from "$app/navigation";
 
-// common
-const textSColor = "blue";
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
-// for basic
-const idBasic = "basic-modal";
-const btnBasicName = "Basic Modal";
+  // common
+  const textSColor = "blue";
 
-// for small modal 1
-const btnName1 = "Small Modal";
-const id1 = "small-modal";
-const btnColor1 = "purple";
+  // for basic
+  const idBasic = "basic-modal";
+  const btnBasicName = "Basic Modal";
 
-const handlebtnS1 = () => {
-  toggleModal(id1, false);
-  goto("/dummy-pages/about");
-};
+  // for small modal 1
+  const btnName1 = "Small Modal";
+  const id1 = "small-modal";
+  const btnColor1 = "purple";
 
-const handlebtnS2 = () => {
-  toggleModal(id1, false);
-};
+  const handlebtnS1 = () => {
+    closeModal()
+    goto("/about");
+  };
 
-// for small modal 2
-const btnName2 = "Small Modal 2";
-const id2 = "small-modal-2";
-const btnColor2 = "red";
+  const handlebtnS2 = () => {
+    closeModal()
+  };
 
-const handlebtnS3 = () => {
-  toggleModal(id2, false);
-};
+  // for small modal 2
+  const btnName2 = "Small Modal 2";
+  const id2 = "small-modal-2";
+  const btnColor2 = "red";
 
-const handlebtnS4 = () => {
-  toggleModal(id2, false);
-};
+  const handlebtnS3 = () => {
+    closeModal()
+  };
+
+  const handlebtnS4 = () => {
+    closeModal()
+  };
 </script>
 ```
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals</h1>
 
-<div class="container flex flex-wrap mt-4 mx-auto justify-center  pb-8">
+<div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton id={idBasic} btnName={btnBasicName} />
 </div>
 
-<p class="dark:text-white">Create a button and modal.</p>
+<p class="dark:text-white pb-4">Create a button and modal.</p>
 
 ```svelte
 <ModalButton id={idBasic} btnName={btnBasicName} />
@@ -105,7 +115,7 @@ const handlebtnS4 = () => {
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals with Action Buttons</h1>
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton id={id1} btnName={btnName1} btnColor={btnColor1} />
 </div>
 
@@ -127,7 +137,7 @@ const handlebtnS4 = () => {
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals with different colors</h1>
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap my-8 mx-auto justify-center">
   <ModalButton id={id2} btnName={btnName2} btnColor={btnColor2} />
 </div>
 

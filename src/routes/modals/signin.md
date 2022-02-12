@@ -3,7 +3,13 @@ layout: doc
 ---
 
 <script>
-  import { SignInModal, ModalButton } from "svelte-flow";
+  import { SignInModal, ModalButton, modalIdStore } from "svelte-flow";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
   let signinId = "signin-modal2";
   let btnSignInName = "Sign In Modal";
@@ -15,7 +21,7 @@ layout: doc
 <p class="dark:text-white text-base">Import SignInModal, ModalButton components and set variables in the script tag.</p>
 
 ```svelte
-import { SignInModal, ModalButton } from "svelte-flow";
+import { SignInModal, ModalButton, modalIdStore } from "svelte-flow";
 
 let signinId = "signin-modal2";
 let btnSignInName = "Sign In Modal";
@@ -56,9 +62,9 @@ let btnSignInColor = "blue";
     btnSignInColor={"pink"}
     titleSignIn={"SignIn Modal Title"}
     textSignInColor="pink"
-    lostPasswordLink={"/auth/lost-password"}
-    signUpLink={"/auth/signup"}
-    formLink={"/auth/signin"}
+    lostPasswordLink={"/"}
+    signUpLink={"/about"}
+    formLink={"/modals"}
   />
 
 <h1 class="text-3xl w-full dark:text-white pb-8">References</h1>

@@ -3,7 +3,13 @@ layout: doc
 ---
 
 <script>
-  import { ModalButton, ExtraLargeModal } from "svelte-flow";
+  import { ModalButton, ExtraLargeModal, modalIdStore } from "svelte-flow";
+
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
   // simple modal
   let id = "simple";
@@ -22,56 +28,65 @@ layout: doc
 
   const handlebtn1 = () => {
     alert("handlebtn1 is clicked from a parent page.");
-    toggleModal(id1, false);
+    closeModal()
   };
 
   const handlebtn2 = () => {
     alert("handlebtn2 is clicked from a parent page.");
-    toggleModal(id2, false);
+    closeModal()
   };
 
   const handlebtn3 = () => {
     alert("handlebtn3 is clicked from a parent page.");
-    toggleModal(id2, false);
+    closeModal()
   };
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Extra-large Modals: Setup</h1>
 
-<p class=" dark:text-white"> Import ModalButton, ExtraLargeModal components and set variables in the script tag.</p>
+<p class="dark:text-white my-4">Import ExtraLargeModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
+
 
 ```svelte
-import { ModalButton, ExtraLargeModal } from "svelte-flow";
+<script>
+  import { ModalButton, ExtraLargeModal, modalIdStore } from "svelte-flow";
 
-// simple modal
-let id = "simple";
+  const closeModal = () => {
+    modalIdStore.update((value) => {
+      value = null;
+    });
+  };
 
-// Modal 1
-let id1 = "extra-large-modal";
-let btnExLName = "Extra Large Modal with one button";
-let btnExLColor = "blue";
+  // simple modal
+  let id = "simple";
 
-// Modal 2
-let id2 = "extra-large-modal-2";
-let btnExLName2 = "Extra Large Modal with two buttons";
-let btnExLColor2 = "purple";
-let btn1 = "Read more";
-let btn2 = "Close";
+  // Modal 1
+  let id1 = "extra-large-modal";
+  let btnExLName = "Extra Large Modal with one button";
+  let btnExLColor = "blue";
 
-const handlebtn1 = () => {
-  alert("handlebtn1 is clicked from a parent page.");
-  toggleModal(id1, false);
-};
+  // Modal 2
+  let id2 = "extra-large-modal-2";
+  let btnExLName2 = "Extra Large Modal with two buttons";
+  let btnExLColor2 = "purple";
+  let btn1 = "Read more";
+  let btn2 = "Close";
 
-const handlebtn2 = () => {
-  alert("handlebtn2 is clicked from a parent page.");
-  toggleModal(id2, false);
-};
+  const handlebtn1 = () => {
+    alert("handlebtn1 is clicked from a parent page.");
+    closeModal()
+  };
 
-const handlebtn3 = () => {
-  alert("handlebtn3 is clicked from a parent page.");
-  toggleModal(id2, false);
-};
+  const handlebtn2 = () => {
+    alert("handlebtn2 is clicked from a parent page.");
+    closeModal()
+  };
+
+  const handlebtn3 = () => {
+    alert("handlebtn3 is clicked from a parent page.");
+    closeModal()
+  };
+</script>
 ```
 
 <h1 class="text-3xl w-full dark:text-white">Extra-large Modals for Information</h1>
@@ -80,7 +95,7 @@ const handlebtn3 = () => {
   <ModalButton {id} btnName="Info Modal" />
 </div>
 
-<p class="dark:text-white"> Create a button and modal.</p>
+<p class="dark:text-white my-4"> Create a button and modal.</p>
 
 ```svelte
 <ModalButton {id} btnName="Info Modal" />
