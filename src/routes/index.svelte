@@ -50,6 +50,14 @@
 <div class="container flex flex-wrap mx-auto mt-2 justify-center">
   <div class="p-4">
     <Card
+      img="/images/accordions.png"
+      header="ACCORDIONS"
+      link="/accordions"
+      btnColor="blue"
+    />
+  </div>
+  <div class="p-4">
+    <Card
       img="/images/alerts.png"
       header="ALERTS"
       link="/alerts"

@@ -1,14 +1,29 @@
+---
+layout: doc
+---
+
+
 <script>
   import { Accordion } from "svelte-flow";
   import { AccordionItem } from "svelte-flow";
+  import { ArchiveIconOutline, BeakerIconOutline } from "@codewithshin/svelte-heroicons";
 </script>
 
+<h1 class="text-3xl w-full dark:text-white">Icon Accordion</h1>
+
+<p class="dark:text-white mt-4 w-full">User id 1,2,3,...</p> 
+<p class="dark:text-white my-4 w-full">Import svelte-heroicons for icons.</p>
+
 <div
-  class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
+  class="rounded-xl bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
 >
   <Accordion>
     <AccordionItem id="1">
-      <h2 slot="header">My Header 1</h2>
+      <h2 slot="header">
+        <span class="flex"
+          ><span class="mr-2"><ArchiveIconOutline /></span> My Header 1</span
+        >
+      </h2>
       <div slot="body">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab
@@ -28,7 +43,9 @@
       </div>
     </AccordionItem>
     <AccordionItem id="2">
-      <h2 slot="header">My Header 2</h2>
+      <h2 slot="header"><span class="flex "
+          ><span class="mr-2"><BeakerIconOutline /></span> My Header 2</span
+        ></h2>
       <div slot="body">
         <p class="mb-2 text-gray-500 dark:text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab
@@ -69,27 +86,41 @@
   </Accordion>
 </div>
 
-<div
-  class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
->
-  <Accordion>
-    <AccordionItem id="1">
-      <h2 slot="header">Header 2-1</h2>
-      <p slot="body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab
-        necessitatibus sint explicabo, atque temporibus rem iusto, dicta
-        voluptatem molestias ex quibusdam ipsa omnis laboriosam deleniti ipsum
-        nisi quis perspiciatis.
+
+```svelte
+<script>
+  import { Accordion } from "svelte-flow";
+  import { AccordionItem } from "svelte-flow";
+  import { ArchiveIconOutline, BeakerIconOutline } from "@codewithshin/svelte-heroicons";
+</script>
+
+<Accordion>
+  <AccordionItem id="1">
+    <h2 slot="header">
+      <span class="flex">
+        <span class="mr-2"><ArchiveIconOutline /></span> 
+          My Header 1
+      </span>
+    </h2>
+    <div slot="body">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">
+        Lorem ipsum dolor sit amet, consectetur adipisicing ...
       </p>
-    </AccordionItem>
-    <AccordionItem id="2">
-      <h2 slot="header">Header 2-2</h2>
-      <p slot="body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab
-        necessitatibus sint explicabo, atque temporibus rem iusto, dicta
-        voluptatem molestias ex quibusdam ipsa omnis laboriosam deleniti ipsum
-        nisi quis perspiciatis.
+      ...
+    </div>
+  </AccordionItem>
+  <AccordionItem id="2">
+    <h2 slot="header"><span class="flex ">
+      <span class="mr-2"><BeakerIconOutline /></span> 
+        My Header 2
+      </span>
+    </h2>
+    <div slot="body">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">
+        Lorem ipsum dolor sit amet, consectetur adipisicing ...
       </p>
-    </AccordionItem>
-  </Accordion>
-</div>
+      ...
+    </div>
+  </AccordionItem>
+</Accordion>
+```

@@ -1,3 +1,10 @@
+export let accordions = [
+  { url: "accordions", name: "Accordions" },
+  { url: "accordions/default", name: "Accordion" },
+  { url: "accordions/icon-accordion", name: "Icon accordion" },
+];
+
+
 export let alerts = [
   { url: "alerts", name: "Alerts" },
 ];
@@ -11,7 +18,7 @@ export let cards = [
   { url: "cards/ecommerce", name: "E-commerce" },
   { url: "cards/cta", name: "CTA" },
   { url: "cards/horizontal", name: "Horizontal" },
-  { url: "cards/interactive", name: "Interactive", rel: "external" },
+  // { url: "cards/interactive", name: "Interactive" },
   { url: "cards/list", name: "List" },
 ];
 
@@ -39,14 +46,14 @@ export let modals = [
 
 export let navbar = [
   { url: "navbar", name: "Navbar" },
-  // { url: "navbar/dropdown", name: "Dropdown Navbar", rel: "external" },
+  // { url: "navbar/dropdown", name: "Dropdown Navbar" },
 ];
 
 export let tabs = [
   { url: "tabs", name: "Tabs" },
   { url: "tabs/default-tabs", name: "Default" },
-  { url: "tabs/interactive-tabs", name: "Interactive", rel: "external" },
-  { url: "tabs/multiple-interactive-tabs", name: "Multiple Interactive", rel: "external" },
+  { url: "tabs/interactive-tabs", name: "Interactive" },
+  { url: "tabs/multiple-interactive-tabs", name: "Multiple Interactive" },
   { url: "tabs/pilltabs", name: "Pilltabs" },
 ];
 

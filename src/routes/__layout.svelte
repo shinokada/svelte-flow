@@ -10,8 +10,7 @@
   } from "@codewithshin/svelte-sidebar";
 
   import {
-    svelteflows,
-    topMenus,
+    accordions,
     alerts,
     buttons,
     cards,
@@ -20,7 +19,9 @@
     list_group,
     modals,
     navbar,
+    svelteflows,
     tabs,
+    topMenus,
   } from "./items.js";
 
   let asideClass =
@@ -54,8 +55,14 @@
 />
 <Aside {asideClass}>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/" rel="external">Svelte-Flow</a></h3>
+    <h3 class="text-base pb-4"><a href="/" rel="">Svelte-Flow</a></h3>
     {#each svelteflows as { url, name, rel }}
+      <SidebarList {url} {name} {rel} />
+    {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4">Accordions</h3>
+    {#each accordions as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}
   </Nav>
