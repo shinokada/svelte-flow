@@ -4,7 +4,7 @@ layout: doc
 
 <script>
   import { List } from "svelte-flow";
-  import {UsericonCircleSolid, CloudDownloadIconSolid, AdjustmentsIconSolid, InboxIconSolid } from '@codewithshin/svelte-heroicons'
+  import {UserCircleIconSolid, CloudDownloadIconSolid, AdjustmentsIconSolid, InboxIconSolid } from '@codewithshin/svelte-heroicons'
 
   let lists = [
     {
