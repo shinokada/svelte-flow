@@ -14,7 +14,7 @@
     <Card
       img="/images/accordions.png"
       header="ICON ACCORDION"
-      link="/accordion/icon-accordion"
+      link="/accordions/icon-accordion"
     />
   </div>
 </div>
