@@ -7,30 +7,30 @@
     <Card img="/images/cards.png" header="CARD" link="/cards/card" />
   </div>
   <div class="p-4">
-    <Card img="/images/cards.png" header="CTA CARD" link="/cards/cta-card" />
+    <Card img="/images/cards.png" header="CTA CARD" link="/cards/cta" />
   </div>
   <div class="p-4">
     <Card
       img="/images/cards.png"
       header="ECOMMERCE CARD"
-      link="/cards/ecommerce-card"
+      link="/cards/ecommerce"
     />
   </div>
   <div class="p-4">
     <Card
       img="/images/cards.png"
       header="INTERACTIVE CARD"
-      link="/cards/interactive-card"
+      link="/cards/interactive"
     />
   </div>
   <div class="p-4">
     <Card
       img="/images/cards.png"
       header="HORIAONTAL CARD"
-      link="/cards/horizontal-card"
+      link="/cards/horizontal"
     />
   </div>
   <div class="p-4">
-    <Card img="/images/cards.png" header="LIST CARD" link="/cards/list-card" />
+    <Card img="/images/cards.png" header="LIST CARD" link="/cards/list" />
   </div>
 </div>
