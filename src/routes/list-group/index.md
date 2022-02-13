@@ -4,6 +4,7 @@ layout: doc
 
 <script>
   import { List } from "svelte-flow";
+  import {UsericonCircleSolid, CloudDownloadIconSolid, AdjustmentsIconSolid, InboxIconSolid } from '@codewithshin/svelte-heroicons'
 
   let lists = [
     {
@@ -31,6 +32,29 @@ layout: doc
       link: "/tabs",
     },
   ];
+  let list2 = [
+    {
+      title: "Profile",
+      icons:"UsericonCircleSolid",
+      link: "/",
+    },
+    {
+      title: "Settings",
+      icons:"AdjustmentsIconSolid",
+      link: "/",
+    },
+    {
+      title: "Messages",
+      icons:"InboxIconSolid",
+      link: "/",
+    },
+    {
+      title: "Download",
+      icons:"CloudDownloadIconSolid",
+      link: "/",
+    },
+   
+  ];
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">List group</h1>
@@ -38,9 +62,7 @@ layout: doc
 <div
   class="container flex flex-wrap space-x-8 justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
 >
-  <List />
-
-  <List {lists} />
+ <List {lists} />
 </div>
 
 
@@ -76,3 +98,9 @@ layout: doc
   ];
 </script>
 ````
+
+<div
+  class="container flex flex-wrap space-x-8 justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
+>
+  <List />
+</div>
