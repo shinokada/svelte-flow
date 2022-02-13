@@ -100,7 +100,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals</h1>
 
-<div class="container flex flex-wrap my-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={idBasic} btnName={btnBasicName} />
 </div>
 
@@ -115,7 +115,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals with Action Buttons</h1>
 
-<div class="container flex flex-wrap my-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={id1} btnName={btnName1} btnColor={btnColor1} />
 </div>
 
@@ -137,7 +137,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Small Modals with different colors</h1>
 
-<div class="container flex flex-wrap my-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={id2} btnName={btnName2} btnColor={btnColor2} />
 </div>
 
@@ -191,5 +191,5 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 <h1 class="text-3xl w-full dark:text-white pb-8">References</h1>
 
-<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/modal/" target="_blank">- Flowbite Modal</a></p>
+<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/modal/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Flowbite Modal</a></p>
 

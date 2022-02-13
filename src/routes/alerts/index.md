@@ -29,7 +29,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </Alert>
 ```
 
-<div class="container mt-4  mx-auto">
+<div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Alert alertId="alert-blue">
     A simple info alert without a close button.
   </Alert>
@@ -51,7 +51,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </BorderAlert>
 ```
 
-<div class="container mt-4  mx-auto">
+<div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <BorderAlert color="green">
     A border alert without the close button.
   </BorderAlert>
@@ -74,7 +74,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </BorderAlert>
 ```
 
-<div class="container mt-4  mx-auto">
+<div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <InfoAlert>
     <span slot="header">Info header 1</span>
     InfoAlert without View more and Dismiss button.

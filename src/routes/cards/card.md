@@ -24,7 +24,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card header="Simple card with header and content">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio
     consequatur modi ab nisi perferendis placeat natus repellendus officiis
@@ -40,7 +40,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card header="Card with link" link="/">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio
     consequatur modi ab nisi perferendis placeat natus repellendus officiis
@@ -56,7 +56,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card img="/images/image-1.jpeg" header="Card with link and image" link="/">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio
     consequatur modi ab nisi perferendis placeat natus repellendus officiis
@@ -72,7 +72,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card img="/images/image-2.jpeg" header="Card with image"
     >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio
     consequatur modi ab nisi perferendis placeat natus repellendus officiis
@@ -93,7 +93,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card
     img="/images/image-1.jpeg"
     header="Red button"
@@ -119,7 +119,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card
     img="/images/image-1.jpeg"
     header="Yellow button"
@@ -145,7 +145,7 @@ layout: doc
 </Card>
 ```
 
-<div class="container flex flex-wrap mt-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Card
     img="/images/image-1.jpeg"
     header="Purple button"
@@ -160,4 +160,4 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-8">References</h1>
 
-<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/card/" target="_blank">- Flowbite Card</a></p>
+<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/card/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Flowbite Card</a></p>

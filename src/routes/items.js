@@ -19,6 +19,10 @@ export let darkmode = [
   { url: "darkmode", name: "Dark mode" },
 ]
 
+export let icons = [
+  { url: "icons", name: "Heroicons" },
+]
+
 export let list_group = [
   { url: "list-group", name: "List group" },
 ];
@@ -35,7 +39,7 @@ export let modals = [
 
 export let navbar = [
   { url: "navbar", name: "Navbar" },
-  { url: "navbar/dropdown", name: "Dropdown Navbar", rel: "external" },
+  // { url: "navbar/dropdown", name: "Dropdown Navbar", rel: "external" },
 ];
 
 export let tabs = [

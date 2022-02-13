@@ -91,12 +91,10 @@ layout: doc
 />
 ```
 
-
-<div class="flex flex-wrap mx-auto p-8">
-  <div class="flex-auto p-4">
+<div class="container flex flex-col space-y-4 justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
+  
     <InteractiveCard {dropdownLinks} {img} {header} {content} {link1} {link2} />
-  </div>
-  <div class="flex-auto p-4">
+
     <InteractiveCard
       {dropdownLinks}
       {img}
@@ -106,8 +104,7 @@ layout: doc
       {link2}
       btnColor1="purple"
     />
-  </div>
-  <div class="flex-auto p-4">
+ 
     <InteractiveCard
       {dropdownLinks}
       {img}
@@ -117,8 +114,7 @@ layout: doc
       {link2}
       btnColor1="green"
     />
-  </div>
-  <div class="flex-auto p-4">
+
     <InteractiveCard
       {dropdownLinks}
       {img}
@@ -127,9 +123,10 @@ layout: doc
       {link1}
       btnColor1="red"
     />
-  </div>
+  
 </div>
-<div class="flex flex-wrap mx-auto p-8">
+
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <div class="flex-auto p-4">
     <InteractiveCard {dropdownLinks} {img} {header} {content} {link2} />
   </div>
@@ -140,4 +137,4 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-8">References</h1>
 
-<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/card/" target="_blank">- Flowbite Card</a></p>
+<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/card/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Flowbite Card</a></p>

@@ -17,7 +17,7 @@ layout: doc
 <DefaultTabs />
 ```
 
-<div class="container flex flex-wrap mt-4 mx-auto justify-center  pb-8">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <DefaultTabs />
 </div>
   

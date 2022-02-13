@@ -61,6 +61,15 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Multiple Interactive Tabs</h1>
 
+
+<div class="container rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
+  <InteractiveTabs tabId="myTab1" tabs={tabs1} />
+</div>
+
+<div class="container rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
+  <InteractiveTabs tabId="myTab2" tabs={tabs2} />
+</div>
+
 ```svelte
 <script>
   import { InteractiveTabs } from "svelte-flow";
@@ -123,11 +132,3 @@ layout: doc
 <InteractiveTabs tabId="myTab1" tabs={tabs1} />
 <InteractiveTabs tabId="myTab2" tabs={tabs2} />
 ```
-
-<div class="container mx-auto p-8">
-  <InteractiveTabs tabId="myTab1" tabs={tabs1} />
-</div>
-
-<div class="container mx-auto p-8">
-  <InteractiveTabs tabId="myTab2" tabs={tabs2} />
-</div>

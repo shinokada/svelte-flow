@@ -19,7 +19,7 @@
 
 <footer class={footerClass}>
   <span class={spanClass}
-    >© 2022 <a href={link} class={spanLinkClass} target="_blank">{siteName}</a>.
+    >© 2022 <a href={link} class={spanLinkClass} target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">{siteName}</a>.
     All Rights Reserved.
   </span>
   <ul class={ulClass}>

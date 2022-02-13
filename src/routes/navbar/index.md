@@ -21,7 +21,7 @@ layout: doc
 <Navbar textsize="xs" />
 ```
 
-<div class="container w-full mt-4 mx-auto pb-8">
+<div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 <Navbar textsize="xs" />
 </div>
 
@@ -31,7 +31,7 @@ layout: doc
 <Navbar textsize="sm" />
 ```
 
-<div class="container w-full mt-4 mx-auto pb-8">
+<div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 <Navbar textsize="sm" />
 </div>
 
@@ -41,7 +41,7 @@ layout: doc
 <Navbar textsize="base" />
 ```
 
-<div class="container w-full mt-4 mx-auto pb-8">
+<div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 <Navbar textsize="base" />
 </div>
 
@@ -51,7 +51,7 @@ layout: doc
 <Navbar textsize="lg" />
 ```
 
-<div class="container w-full mt-4 mx-auto pb-8">
+<div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 <Navbar textsize="lg" />
 </div>
 
@@ -61,6 +61,6 @@ layout: doc
 <Navbar textsize="xl" />
 ```
 
-<div class="container w-full mt-4 mx-auto pb-8">
+<div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 <Navbar textsize="xl" />
 </div>

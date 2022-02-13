@@ -85,7 +85,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-4">Medium Modals for Information</h1>
 
-<div class="container flex flex-wrap my-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton {id} btnName={btnBasicName} />
 </div>
 
@@ -101,7 +101,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-4">Medium Modals with an Action Button</h1>
 
-<div class="container flex flex-wrap my-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={id1} btnName={btnMName} {btnColor} />
 </div>
 
@@ -122,7 +122,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-8">Medium Modals with action buttons</h1>
 
-<div class="container flex flex-wrap my-8 mx-auto justify-center">
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={id2} btnName={btnName2} btnColor={btnColor2} />
 </div>
 
@@ -180,4 +180,4 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-8">References</h1>
 
-<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/modal/" target="_blank">- Flowbite Modal</a></p>
+<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/modal/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Flowbite Modal</a></p>

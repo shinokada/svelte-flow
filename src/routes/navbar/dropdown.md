@@ -12,11 +12,6 @@ layout: doc
       rel: "external",
     },
     {
-      name: "Alerts",
-      link: "/alerts",
-      rel: "external",
-    },
-    {
       name: "Cards",
       link: "/cards",
       rel: "external",
@@ -62,7 +57,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white pb-8">Dropdown Navbar</h1>
 
-<div class="container w-full mt-4 mx-auto pb-8">
+<div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <DropdownNavbar textsize="lg" {menus} />
 </div>
 
