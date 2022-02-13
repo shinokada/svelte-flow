@@ -11,12 +11,12 @@
 
   import {
     accordions,
-    alerts,
-    buttons,
+    // alerts,
+    // buttons,
     cards,
-    darkmode,
-    icons,
-    list_group,
+    // darkmode,
+    // icons,
+    // list_group,
     modals,
     navbar,
     svelteflows,
@@ -61,49 +61,34 @@
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Accordions</h3>
+    <h3 class="text-base pb-4"><a href="/accordions">Accordions</a></h3>
     {#each accordions as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Alerts</h3>
-    {#each alerts as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
+    <h3 class="text-base pb-4"><a href="/alerts">Alerts</a></h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Buttons</h3>
-    {#each buttons as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
+    <h3 class="text-base pb-4"><a href="/buttons">Buttons</a></h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Cards</h3>
+    <h3 class="text-base pb-4"><a href="/cards">Cards</a></h3>
     {#each cards as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Dark mode</h3>
-    {#each darkmode as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
+    <h3 class="text-base pb-4"><a href="/darkmode">Dark mode</a></h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Icons</h3>
-    {#each icons as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
+    <h3 class="text-base pb-4"><a href="/icons">Icons</a></h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">List group</h3>
-    {#each list_group as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
+    <h3 class="text-base pb-4"><a href="/list-group">List group</a></h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Modals</h3>
+    <h3 class="text-base pb-4"><a href="/modals">Modals</a></h3>
     {#each modals as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}
@@ -115,7 +100,7 @@
     {/each}
   </Nav>
   <Nav {navClass} navDivClass={navDivClasslast}>
-    <h3 class="text-base pb-4">Tabs</h3>
+    <h3 class="text-base pb-4"><a href="/tabs">Tabs</a></h3>
     {#each tabs as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}

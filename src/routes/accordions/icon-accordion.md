@@ -11,8 +11,12 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Icon Accordion</h1>
 
-<p class="dark:text-white mt-4 w-full">User id 1,2,3,...</p> 
-<p class="dark:text-white my-4 w-full">Import svelte-heroicons for icons.</p>
+<p class="dark:text-white mt-4 w-full">Add id 1,2,3,... to AccordionItem component.</p> 
+<p class="dark:text-white my-4 w-full">Install @codewithshin/svelte-heroicons.</p>
+
+```sh
+npm i @codewithshin/svelte-heroicons
+```
 
 <div
   class="rounded-xl bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"

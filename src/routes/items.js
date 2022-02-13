@@ -1,17 +1,16 @@
 export let accordions = [
-  { url: "accordions", name: "Accordions" },
   { url: "accordions/default", name: "Accordion" },
   { url: "accordions/icon-accordion", name: "Icon accordion" },
 ];
 
 
-export let alerts = [
-  { url: "alerts", name: "Alerts" },
-];
+// export let alerts = [
+//   { url: "alerts", name: "Alerts" },
+// ];
 
-export let buttons = [
-  { url: "buttons", name: "Buttons" },
-];
+// export let buttons = [
+//   { url: "buttons", name: "Buttons" },
+// ];
 
 export let cards = [
   { url: "cards/card", name: "Card" },
@@ -22,20 +21,19 @@ export let cards = [
   { url: "cards/list", name: "List" },
 ];
 
-export let darkmode = [
-  { url: "darkmode", name: "Dark mode" },
-]
+// export let darkmode = [
+//   { url: "darkmode", name: "Dark mode" },
+// ]
 
-export let icons = [
-  { url: "icons", name: "Heroicons" },
-]
+// export let icons = [
+//   { url: "icons", name: "Heroicons" },
+// ]
 
-export let list_group = [
-  { url: "list-group", name: "List group" },
-];
+// export let list_group = [
+//   { url: "list-group", name: "List group" },
+// ];
 
 export let modals = [
-  { url: "modals", name: "Modals" },
   { url: "modals/small", name: "Small" },
   { url: "modals/medium", name: "Medium" },
   { url: "modals/large", name: "Large" },
@@ -50,7 +48,6 @@ export let navbar = [
 ];
 
 export let tabs = [
-  { url: "tabs", name: "Tabs" },
   { url: "tabs/default-tabs", name: "Default" },
   { url: "tabs/interactive-tabs", name: "Interactive" },
   { url: "tabs/multiple-interactive-tabs", name: "Multiple Interactive" },

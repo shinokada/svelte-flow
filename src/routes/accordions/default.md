@@ -9,7 +9,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Icon Accordion</h1>
 
-<p class="dark:text-white my-4">User id 1,2,3,...</p>
+<p class="dark:text-white my-4">Add id 1,2,3,... to AccordionItem component.</p>
 
 <div
   class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
