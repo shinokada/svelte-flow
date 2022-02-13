@@ -4,8 +4,12 @@ layout: doc
 
 <script>
   import { List } from "svelte-flow";
-  import {UserCircleIconSolid, CloudDownloadIconSolid, AdjustmentsIconSolid, InboxIconSolid } from '@codewithshin/svelte-heroicons'
-
+  import {
+    AdjustmentsIconSolid,
+    UserCircleIconSolid,
+    InboxInIconSolid,
+    CloudDownloadIconSolid,
+  } from "@codewithshin/svelte-heroicons";
   let lists = [
     {
       title: "Home",
@@ -32,28 +36,27 @@ layout: doc
       link: "/tabs",
     },
   ];
-  let list2 = [
+  let lists2 = [
     {
       title: "Profile",
-      icons:"UsericonCircleSolid",
+      icon: UserCircleIconSolid,
       link: "/",
     },
     {
       title: "Settings",
-      icons:"AdjustmentsIconSolid",
+      icon: AdjustmentsIconSolid,
       link: "/",
     },
     {
       title: "Messages",
-      icons:"InboxIconSolid",
+      icon: InboxInIconSolid,
       link: "/",
     },
     {
       title: "Download",
-      icons:"CloudDownloadIconSolid",
+      icon: CloudDownloadIconSolid,
       link: "/",
     },
-   
   ];
 </script>
 
@@ -102,5 +105,40 @@ layout: doc
 <div
   class="container flex flex-wrap space-x-8 justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
 >
-  <List />
+  <List lists={lists2} />
 </div>
+
+```svelte
+<script>
+  import { List } from "svelte-flow";
+  import {
+    AdjustmentsIconSolid,
+    UserCircleIconSolid,
+    InboxInIconSolid,
+    CloudDownloadIconSolid,
+  } from "@codewithshin/svelte-heroicons";
+
+  let lists2 = [
+    {
+      title: "Profile",
+      icon: UserCircleIconSolid,
+      link: "/",
+    },
+    {
+      title: "Settings",
+      icon: AdjustmentsIconSolid,
+      link: "/",
+    },
+    {
+      title: "Messages",
+      icon: InboxInIconSolid,
+      link: "/",
+    },
+    {
+      title: "Download",
+      icon: CloudDownloadIconSolid,
+      link: "/",
+    },
+  ];
+</script>
+```
