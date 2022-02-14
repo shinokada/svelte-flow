@@ -42,7 +42,7 @@
     <img
       class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
       src="/images/office1.jpeg"
-      alt=""
+      alt="Header"
     />
   </div>
 </div>
@@ -51,6 +51,7 @@
   <div class="p-4">
     <Card
       img="/images/accordions.png"
+      alt="Accordions"
       header="ACCORDIONS"
       link="/accordions"
       btnColor="blue"
@@ -59,6 +60,7 @@
   <div class="p-4">
     <Card
       img="/images/alerts.png"
+      alt="Alerts"
       header="ALERTS"
       link="/alerts"
       btnColor="red"
@@ -67,6 +69,7 @@
   <div class="p-4">
     <Card
       img="/images/buttons.png"
+      alt="Buttons"
       header="BUTTONS"
       link="/buttons"
       btnColor="yellow"
@@ -75,6 +78,7 @@
   <div class="p-4">
     <Card
       img="/images/cards.png"
+      alt="Cards"
       header="CARDS"
       link="/cards"
       btnColor="purple"
@@ -83,6 +87,7 @@
   <div class="p-4">
     <Card
       img="/images/darkmode.png"
+      alt="Darkmode"
       header="DARK MODE"
       link="/darkmode"
       btnColor="gray"
@@ -91,6 +96,7 @@
   <div class="p-4">
     <Card
       img="/images/list-group.png"
+      alt="List group"
       header="LIST-GROUP"
       link="/list-group"
       btnColor="green"
@@ -99,15 +105,27 @@
   <div class="p-4">
     <Card
       img="/images/modals.png"
+      alt="Modals"
       header="MODALS"
       link="/modals"
       btnColor="indigo"
     />
   </div>
   <div class="p-4">
-    <Card img="/images/navbar.png" header="NAVBAR" link="/navbar" />
+    <Card
+      img="/images/navbar.png"
+      alt="Navbars"
+      header="NAVBAR"
+      link="/navbar"
+    />
   </div>
   <div class="p-4">
-    <Card img="/images/tabs.png" header="TABS" link="/tabs" btnColor="red" />
+    <Card
+      img="/images/tabs.png"
+      alt="Tabs"
+      header="TABS"
+      link="/tabs"
+      btnColor="red"
+    />
   </div>
 </div>
