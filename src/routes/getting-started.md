@@ -4,21 +4,39 @@ layout: doc
 
 <h1 class="text-2xl w-full dark:text-white">Getting Started</h1>
 <h2 class="text-xl w-full mt-8 dark:text-white">Installation</h2>
-<p class="dark:text-white">Install SvelteKit.</p>
+<p class="dark:text-white">Install SvelteKit:</p>
 
 ```sh
-npm init svelte@next sveltekit-demo $ cd sveltekit-demo
+npm init svelte@next sveltekit-demo 
+cd sveltekit-demo
 npm install 
 ```
 
-<p class="dark:text-white">Install Tailwind CSS and Flowbite.</p>
+<p class="dark:text-white">Install Tailwind CSS:</p>
 
 ```sh
 npx svelte-add@latest tailwindcss
+```
+
+<p class="dark:text-white">Run it:</p>
+
+```sh
+npm run dev
+```
+
+<p class="dark:text-white">You may need to install svelte-preprocess:</p>
+
+```sh
+npm i -D svelte-preprocess   
+```
+
+<p class="dark:text-white">Install Flowbite:</p>
+
+```sh
 npm i flowbite 
 ```
 
-<p class="dark:text-white">Install svelte-flow.</p>
+<p class="dark:text-white">Install svelte-flow:</p>
 
 ```sh
 npm i -D svelte-flow 
