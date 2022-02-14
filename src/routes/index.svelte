@@ -41,7 +41,7 @@
   <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12">
     <img
       class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-      src="/images/office1.jpeg"
+      src="/images/office1.webp"
       alt="Header"
     />
   </div>
@@ -55,6 +55,7 @@
       header="ACCORDIONS"
       link="/accordions"
       btnColor="blue"
+      btnLabel="Go to Accordions"
     />
   </div>
   <div class="p-4">
@@ -64,6 +65,7 @@
       header="ALERTS"
       link="/alerts"
       btnColor="red"
+      btnLabel="Go to Alerts"
     />
   </div>
   <div class="p-4">
@@ -73,6 +75,7 @@
       header="BUTTONS"
       link="/buttons"
       btnColor="yellow"
+      btnLabel="Go to Buttons"
     />
   </div>
   <div class="p-4">
@@ -82,6 +85,7 @@
       header="CARDS"
       link="/cards"
       btnColor="purple"
+      btnLabel="Go to Cards"
     />
   </div>
   <div class="p-4">
@@ -91,6 +95,7 @@
       header="DARK MODE"
       link="/darkmode"
       btnColor="gray"
+      btnLabel="Go to Darkmode"
     />
   </div>
   <div class="p-4">
@@ -100,6 +105,7 @@
       header="LIST-GROUP"
       link="/list-group"
       btnColor="green"
+      btnLabel="Go to List group"
     />
   </div>
   <div class="p-4">
@@ -109,6 +115,7 @@
       header="MODALS"
       link="/modals"
       btnColor="indigo"
+      btnLabel="Go to Modals"
     />
   </div>
   <div class="p-4">
@@ -117,6 +124,7 @@
       alt="Navbars"
       header="NAVBAR"
       link="/navbar"
+      btnLabel="Go to Navbars"
     />
   </div>
   <div class="p-4">
@@ -126,6 +134,7 @@
       header="TABS"
       link="/tabs"
       btnColor="red"
+      btnLabel="Go to Tabs"
     />
   </div>
 </div>
