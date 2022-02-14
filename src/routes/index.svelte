@@ -50,7 +50,7 @@
 <div class="container flex flex-wrap mx-auto mt-2 justify-center">
   <div class="p-4">
     <Card
-      img="/images/accordions.png"
+      img="/images/accordions.webp"
       alt="Accordions"
       header="ACCORDIONS"
       link="/accordions"
@@ -59,7 +59,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/alerts.png"
+      img="/images/alerts.webp"
       alt="Alerts"
       header="ALERTS"
       link="/alerts"
@@ -68,7 +68,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/buttons.png"
+      img="/images/buttons.webp"
       alt="Buttons"
       header="BUTTONS"
       link="/buttons"
@@ -77,7 +77,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/cards.png"
+      img="/images/cards.webp"
       alt="Cards"
       header="CARDS"
       link="/cards"
@@ -86,7 +86,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/darkmode.png"
+      img="/images/darkmode.webp"
       alt="Darkmode"
       header="DARK MODE"
       link="/darkmode"
@@ -95,7 +95,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/list-group.png"
+      img="/images/list-group.webp"
       alt="List group"
       header="LIST-GROUP"
       link="/list-group"
@@ -104,7 +104,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/modals.png"
+      img="/images/modals.webp"
       alt="Modals"
       header="MODALS"
       link="/modals"
@@ -113,7 +113,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/navbar.png"
+      img="/images/navbar.webp"
       alt="Navbars"
       header="NAVBAR"
       link="/navbar"
@@ -121,7 +121,7 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/tabs.png"
+      img="/images/tabs.webp"
       alt="Tabs"
       header="TABS"
       link="/tabs"
