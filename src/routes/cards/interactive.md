@@ -24,8 +24,8 @@ layout: doc
   };
   let header = "Lorem ipsum";
   let content = "Proin efficitur purus felis.";
-  let link1 = { href: "/dummy-pages/profile", title: "Profile" };
-  let link2 = { href: "/dummy-pages/about", title: "About" };
+  let link1 = { href: "/", title: "Profile" };
+  let link2 = { href: "/", title: "About" };
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Interactive Card: Setup</h1>
@@ -53,8 +53,8 @@ layout: doc
   };
   let header = "Lorem ipsum";
   let content = "Proin efficitur purus felis.";
-  let link1 = { href: "/dummy-pages/profile", title: "Profile" };
-  let link2 = { href: "/dummy-pages/about", title: "About" };
+  let link1 = { href: "/", title: "Profile" };
+  let link2 = { href: "/", title: "About" };
 </script>
 ```
 
@@ -77,7 +77,7 @@ layout: doc
   {content}
   {link1}
   {link2}
-  btnColor1="purple"
+  buttonColor="purple"
 />
 
 <InteractiveCard
@@ -87,7 +87,7 @@ layout: doc
   {content}
   {link1}
   {link2}
-  btnColor1="green"
+  buttonColor="green"
 />
 ```
 
@@ -102,7 +102,7 @@ layout: doc
       {content}
       {link1}
       {link2}
-      btnColor1="purple"
+      buttonColor="purple"
     />
  
     <InteractiveCard
@@ -112,7 +112,7 @@ layout: doc
       {content}
       {link1}
       {link2}
-      btnColor1="green"
+      buttonColor="green"
     />
 
     <InteractiveCard
@@ -121,7 +121,7 @@ layout: doc
       {header}
       {content}
       {link1}
-      btnColor1="red"
+      buttonColor="red"
     />
   
 </div>
