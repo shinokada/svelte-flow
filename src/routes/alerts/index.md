@@ -48,6 +48,10 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 <Alert alertId="alert-indigo" color="indigo" closeBtn="true">
   A simple info alert with a close button.
 </Alert>
+
+<Alert alertId="alert-pink" color="pink" closeBtn="true">
+  A simple info alert with a close button.
+</Alert>
 ```
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
@@ -76,6 +80,10 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
   </Alert>
 
   <Alert alertId="alert-indigo" color="indigo" closeBtn="true">
+    A simple info alert with a close button.
+  </Alert>
+
+  <Alert alertId="alert-pink" color="pink" closeBtn="true">
     A simple info alert with a close button.
   </Alert>
 </div>
@@ -131,69 +139,79 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 
 ```svelte
 <InfoAlert>
-  <span slot="header">Info header 1</span>
-  InfoAlert without View more and Dismiss button.
-</InfoAlert>
+    <span slot="header">Info header 1</span>
+    InfoAlert without View more and Dismiss button.
+  </InfoAlert>
 
-<InfoAlert
-  alertId="info-alert-2"
-  color="green"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 2</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
+  <InfoAlert
+    alertId="info-alert-2"
+    color="green"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 2</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
 
-<InfoAlert
-  alertId="info-alert-3"
-  color="red"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 3</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
+  <InfoAlert
+    alertId="info-alert-3"
+    color="red"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 3</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
 
-<InfoAlert
-  alertId="info-alert-4"
-  color="yellow"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 4</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
+  <InfoAlert
+    alertId="info-alert-4"
+    color="yellow"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 4</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
 
-<InfoAlert
-  alertId="info-alert-5"
-  color="gray"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 5</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
+  <InfoAlert
+    alertId="info-alert-5"
+    color="gray"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 5</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
 
-<InfoAlert
-  alertId="info-alert-6"
-  color="indigo"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 4</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
+  <InfoAlert
+    alertId="info-alert-6"
+    color="indigo"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 4</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
 
-<InfoAlert
-  alertId="info-alert-7"
-  color="purple"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 4</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
+  <InfoAlert
+    alertId="info-alert-7"
+    color="purple"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 4</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
+
+  <InfoAlert
+    alertId="info-alert-8"
+    color="pink"
+    closeBtn="true"
+    infoLink="/"
+  >
+    <span slot="header">Info header 4</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
 ```
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
@@ -207,7 +225,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
     alertId="info-alert-2"
     color="green"
     closeBtn="true"
-    infoLink="/dummy-pages/about"
+    infoLink="/"
   >
     <span slot="header">Info header 2</span>
     InfoAlert with View more and Dismiss button.
@@ -217,7 +235,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
     alertId="info-alert-3"
     color="red"
     closeBtn="true"
-    infoLink="/dummy-pages/about"
+    infoLink="/"
   >
     <span slot="header">Info header 3</span>
     InfoAlert with View more and Dismiss button.
@@ -227,7 +245,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
     alertId="info-alert-4"
     color="yellow"
     closeBtn="true"
-    infoLink="/dummy-pages/about"
+    infoLink="/"
   >
     <span slot="header">Info header 4</span>
     InfoAlert with View more and Dismiss button.
@@ -237,7 +255,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
     alertId="info-alert-5"
     color="gray"
     closeBtn="true"
-    infoLink="/dummy-pages/about"
+    infoLink="/"
   >
     <span slot="header">Info header 5</span>
     InfoAlert with View more and Dismiss button.
@@ -247,7 +265,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
     alertId="info-alert-6"
     color="indigo"
     closeBtn="true"
-    infoLink="/dummy-pages/about"
+    infoLink="/"
   >
     <span slot="header">Info header 4</span>
     InfoAlert with View more and Dismiss button.
@@ -257,7 +275,17 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
     alertId="info-alert-7"
     color="purple"
     closeBtn="true"
-    infoLink="/dummy-pages/about"
+    infoLink="/"
+  >
+    <span slot="header">Info header 4</span>
+    InfoAlert with View more and Dismiss button.
+  </InfoAlert>
+
+  <InfoAlert
+    alertId="info-alert-8"
+    color="pink"
+    closeBtn="true"
+    infoLink="/"
   >
     <span slot="header">Info header 4</span>
     InfoAlert with View more and Dismiss button.
