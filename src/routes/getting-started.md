@@ -53,5 +53,13 @@ npm i -D svelte-flow
 <slot />
 ```
 
+<p class="dark:text-white">Update tailwind.config.cjs:</p>
 
-
+```js
+const config = {
+  content: [
+    "./src/**/*.{html,js,svelte,ts}",
+    "./node_modules/svelte-flow/**/*.{html,js,svelte,ts}",
+  ],
+  ...
+```
