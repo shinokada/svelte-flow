@@ -194,16 +194,6 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
   <span slot="header">Info header 4</span>
   InfoAlert with View more and Dismiss button.
 </InfoAlert>
-
-<InfoAlert
-  alertId="info-alert-8"
-  color="pink"
-  closeBtn="true"
-  infoLink="/dummy-pages/about"
->
-  <span slot="header">Info header 4</span>
-  InfoAlert with View more and Dismiss button.
-</InfoAlert>
 ```
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
@@ -266,16 +256,6 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
   <InfoAlert
     alertId="info-alert-7"
     color="purple"
-    closeBtn="true"
-    infoLink="/dummy-pages/about"
-  >
-    <span slot="header">Info header 4</span>
-    InfoAlert with View more and Dismiss button.
-  </InfoAlert>
-
-  <InfoAlert
-    alertId="info-alert-8"
-    color="pink"
     closeBtn="true"
     infoLink="/dummy-pages/about"
   >
