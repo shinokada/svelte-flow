@@ -41,6 +41,8 @@
     "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium pt-1 dark:bg-gray-800";
   let topMenuDiv =
     "container flex flex-wrap justify-end items-center mx-auto dark:bg-gray-800";
+  let darkmodebtn =
+    "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 fixed left-2 top-20 z-50";
 </script>
 
 <Navbar
@@ -108,7 +110,7 @@
 </Aside>
 
 <main class="container mx-auto px-4 pt-4">
-  <DarkMode />
+  <DarkMode btnClass={darkmodebtn} />
   <div class="mt-8 w-full">
     <slot />
   </div>
