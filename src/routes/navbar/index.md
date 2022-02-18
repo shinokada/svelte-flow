@@ -15,52 +15,52 @@ layout: doc
 </script>
 ```
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size xs</h2>
+<h2 class="text-lg mt-8 dark:text-white">Text Size text-xs</h2>
 
 ```svelte
-<Navbar textsize="xs" />
+<Navbar textsize="text-xs" />
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="xs" />
+<Navbar textsize="text-xs" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size sm</h2>
+<h2 class="text-lg mt-8 dark:text-white">Text Size text-sm</h2>
 
 ```svelte
-<Navbar textsize="sm" />
+<Navbar textsize="text-sm" />
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="sm" />
+<Navbar textsize="text-sm" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size base</h2>
+<h2 class="text-lg mt-8 dark:text-white">Text Size text-base</h2>
 
 ```svelte
-<Navbar textsize="base" />
+<Navbar textsize="text-base" />
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="base" />
+<Navbar textsize="text-base" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size lg</h2>
+<h2 class="text-lg mt-8 dark:text-white">Text Size text-lg</h2>
 
 ```svelte
-<Navbar textsize="lg" />
+<Navbar textsize="text-lg" />
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="lg" />
+<Navbar textsize="text-lg" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size xl</h2>
+<h2 class="text-lg mt-8 dark:text-white">Text Size text-xl</h2>
 
 ```svelte
-<Navbar textsize="xl" />
+<Navbar textsize="text-xl" />
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="xl" />
+<Navbar textsize="text-xl" />
 </div>

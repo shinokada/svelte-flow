@@ -58,11 +58,11 @@ layout: doc
 <h1 class="text-3xl w-full dark:text-white pb-8">Dropdown Navbar</h1>
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-  <DropdownNavbar textsize="lg" {menus} />
+  <DropdownNavbar textsize="text-lg" {menus} />
 </div>
 
 <p class="dark:text-white text-lg">
-  You can change textsize prop to xs, sm, base, lg or xl.
+  You can change textsize prop to text-xs, text-sm, text-base, text-lg or text-xl.
 </p>
 
 <h1 class="text-3xl w-full dark:text-white py-8">Dropdown Navbar Setup</h1>
@@ -121,6 +121,8 @@ let menus = [
     ],
   },
 ];
+
+<DropdownNavbar textsize="text-lg" {menus} />
 ```
 
 
