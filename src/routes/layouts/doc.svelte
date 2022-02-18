@@ -11,6 +11,6 @@
     <slot />
   </div>
   <div class="container my-16 mx-auto">
-    <Utterances reponame="shinokada/svelte-flow" theme="github-dark" />
+    <Utterances reponame="shinokada/svelte-flow" theme="dark-blue" />
   </div>
 </div>
