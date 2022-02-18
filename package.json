@@ -19,6 +19,7 @@
   "devDependencies": {
     "@codewithshin/svelte-heroicons": "^1.1.0",
     "@codewithshin/svelte-sidebar": "^0.1.4",
+    "@codewithshin/svelte-utterances": "^0.1.2",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.4.2",

@@ -32,3 +32,11 @@ let btnClass="Add your class here"
 <Darkmode {btnClass} />
 ```
 
+Add the following to the body tag:
+
+```html
+<!-- src/app.html -->
+<body class="bg-white dark:bg-gray-800">
+	<div>%svelte.body%</div>
+</body>
+```
