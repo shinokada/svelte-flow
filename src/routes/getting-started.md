@@ -30,16 +30,10 @@ npm run dev
 npm i -D svelte-preprocess   
 ```
 
-<p class="dark:text-white">Install Flowbite:</p>
+<p class="dark:text-white">Install svelte-flow:</p>
 
 ```sh
-npm i flowbite 
-```
-
-<p class="dark:text-white">Install svelte-flow and it's dependencies:</p>
-
-```sh
-npm i -D svelte-flow @codewithshin/svelte-heroicons svelte-collapse
+npm i -D svelte-flow
 ```
 
 <p class="dark:text-white">Add the following in the script tag in the __layout.svelte:</p>
