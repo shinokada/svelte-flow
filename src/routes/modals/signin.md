@@ -48,9 +48,7 @@ let btnSignInColor = "blue";
 />
 <SignInModal
   id={signinId}
-  btnSignInColor={"pink"}
   titleSignIn={"SignIn Modal Title"}
-  textSignInColor="pink"
   lostPasswordLink={"/auth/lost-password"}
   signUpLink={"/auth/signup"}
   formLink={"/auth/signin"}
@@ -59,9 +57,7 @@ let btnSignInColor = "blue";
 
   <SignInModal
     id={signinId}
-    btnSignInColor={"pink"}
     titleSignIn={"SignIn Modal Title"}
-    textSignInColor="pink"
     lostPasswordLink={"/"}
     signUpLink={"/about"}
     formLink={"/modals"}
