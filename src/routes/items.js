@@ -19,6 +19,7 @@ export let cards = [
   { url: "cards/horizontal", name: "Horizontal" },
   // { url: "cards/interactive", name: "Interactive" },
   { url: "cards/list", name: "List" },
+  { url: "cards/signin", name: "SignIn" },
 ];
 
 // export let darkmode = [
