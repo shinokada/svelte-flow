@@ -2,7 +2,7 @@
   import Prism from "prismjs";
   import "prismjs/themes/prism.css";
   import "prism-themes/themes/prism-holi-theme.css";
-  import "prismjs/components/prism-markdown";
+  import "prismjs/components/prism-markdown.js";
   import { Utterances } from "@codewithshin/svelte-utterances";
 </script>
 
