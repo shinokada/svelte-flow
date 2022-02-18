@@ -32,7 +32,7 @@ let btnClass="Add your class here"
 <Darkmode {btnClass} />
 ```
 
-Add the following to the body tag:
+<p class="dark:text-white">Add the following to the body tag:</p>
 
 ```html
 <!-- src/app.html -->

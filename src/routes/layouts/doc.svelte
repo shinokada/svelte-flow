@@ -9,8 +9,8 @@
 <div class="max-w-3xl mx-auto pb-32">
   <div class="container mt-4 flex flex-wrap mx-auto pt-16">
     <slot />
-    <div class="my-16">
-      <Utterances reponame="shinokada/svelte-flow" theme="github-dark" />
-    </div>
+  </div>
+  <div class="container my-16 mx-auto">
+    <Utterances reponame="shinokada/svelte-flow" theme="github-dark" />
   </div>
 </div>

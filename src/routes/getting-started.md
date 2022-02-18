@@ -42,7 +42,7 @@ npm i flowbite
 npm i -D svelte-flow @codewithshin/svelte-heroicons svelte-collapse
 ```
 
-<p class="dark:text-white">Add the following in the script tag in the __layout.svelte :</p>
+<p class="dark:text-white">Add the following in the script tag in the __layout.svelte:</p>
 
 ```html
 <script>
