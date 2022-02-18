@@ -1,6 +1,6 @@
 <script>
   export let img = {
-    src: "/images/product-1.png",
+    src: "/images/product-1.webp",
     alt: "product image",
   };
   export let link = "/#";

@@ -123,7 +123,7 @@ let btns = [ // array of objects
 
 ```js
 let img = { // object
-    src: "/images/product-1.png",// src
+    src: "/images/product-1.webp",// src
     alt: "product image",// string
   };
 let link = "/#"; // url
@@ -233,7 +233,7 @@ To overwrite the class `active` for active menu item, add the following to `src/
 ### Props and their default values
 
 - sitename: `sitename = "Svelte Flow"`.
-- logo: `logo = "/images/mkdir-logo.png"`
+- logo: `logo = "/images/mkdir-logo.webp"`
 - textsize: `textsize = "sm"`
 - menus:
 
