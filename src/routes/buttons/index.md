@@ -6,7 +6,16 @@ layout: doc
   import { Button } from "svelte-flow";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Buttons: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white mb-8">Buttons: Setup</h1>
+
+<h2 class="text-2xl w-full text-gray-900 dark:text-white">Button Props</h2>
+
+```js
+let rounded = false;
+let textSize = "text-sm";
+let name = "Read more";
+let type = "blue";
+```
 
 <p class="dark:text-white">Import Button in the script tag.</p>
 
@@ -16,7 +25,7 @@ layout: doc
 </script>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size xs Default Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size xs Default Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button text-xs" textSize="text-xs" />
@@ -38,7 +47,7 @@ layout: doc
 <Button name="Button text-xs" textSize="text-xs" type="purple" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size xs Rounded Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size xs Rounded Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button text-xs" textSize="text-xs" rounded="true" />
@@ -60,7 +69,7 @@ layout: doc
 <Button name="Button text-xs" textSize="text-xs" type="purple" rounded="true" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size xs Outlined Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size xs Outlined Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button text-xs" textSize="text-xs" type="blue-outline" />
@@ -81,7 +90,7 @@ layout: doc
 ```
 
 
-<h1 class="text-3xl w-full dark:text-white">Size sm Default Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size sm Default Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button" textSize="text-sm" />
@@ -103,7 +112,7 @@ layout: doc
 <Button name="Button" textSize="text-sm" type="purple" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size sm Rounded Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size sm Rounded Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button" textSize="text-sm" rounded="true" />
@@ -125,7 +134,7 @@ layout: doc
 <Button name="Button" textSize="text-sm" type="purple" rounded="true" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size sm Outlined Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size sm Outlined Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button" textSize="text-sm" type="blue-outline" />
@@ -145,7 +154,7 @@ layout: doc
 <Button name="Button" textSize="text-sm" type="purple-outline" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size base Default Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size base Default Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button" textSize="text-base" />
@@ -167,7 +176,7 @@ layout: doc
 <Button name="Button" textSize="text-base" type="purple" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size base Rounded Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size base Rounded Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <Button name="Button" textSize="text-base" rounded="true" />
@@ -189,7 +198,7 @@ layout: doc
 <Button name="Button" textSize="text-base" type="purple" rounded="true" />
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Size sm Outlined Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white my-8">Size sm Outlined Buttons</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 <Button name="Button" textSize="text-base" type="blue-outline" />

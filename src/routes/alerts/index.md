@@ -6,7 +6,7 @@ layout: doc
   import { Alert, BorderAlert, InfoAlert } from "svelte-flow";
 </script>
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white">Alert: Setup</h1>
+<h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Alert: Setup</h1>
 
 <p class="text-gray-900 dark:text-white">
 Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
@@ -18,7 +18,32 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </script>
 ```
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white">Simple Alert Examples</h1>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white">Alert Default Props</h2>
+
+```js
+let color = "blue";
+let alertId = "alert-1";
+let closeBtn = false;
+```
+
+<h2 class="text-2xl w-full text-gray-900 dark:text-white">BorderAlert Default Props</h2>
+
+```js
+let color = "blue";
+let alertId = "alert-border-1";
+let closeBtn = false;
+```
+
+<h2 class="text-2xl w-full text-gray-900 dark:text-white">InfoAlert Default Props</h2>
+
+```js
+let color = "blue";
+let alertId = "alert-additional-content-1";
+let infoLink = false;
+let closeBtn = false;
+```
+
+<h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Simple Alert Examples</h1>
 
 ```svelte
 <Alert alertId="alert-blue">
@@ -88,7 +113,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
   </Alert>
 </div>
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white">Border Alert Examples</h1>
+<h1 class="text-2xl w-full text-gray-900 dark:text-white my-8">Border Alert Examples</h1>
 
 ```svelte
 <BorderAlert color="blue">
@@ -135,7 +160,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </div>
 
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white">Information Alert Examples</h1>
+<h1 class="text-2xl w-full text-gray-900 dark:text-white my-8">Information Alert Examples</h1>
 
 ```svelte
 <InfoAlert>

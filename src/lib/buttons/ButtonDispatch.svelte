@@ -5,6 +5,12 @@
   export let name = "Read more";
   //s
   export let type = "blue";
+  import { createEventDispatcher } from "svelte";
+
+  const dispatch = createEventDispatcher();
+  const handleClick = () => {
+    dispatch("handleClick");
+  };
   let paddings;
   if (size === "xs") {
     paddings = "py-2 px-3";
@@ -51,4 +57,4 @@
   }
 </script>
 
-<button type="button" class={buttonClass}>{name}</button>
+<button type="button" class={buttonClass} on:click={handleClick}>{name}</button>

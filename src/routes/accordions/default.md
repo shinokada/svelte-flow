@@ -9,12 +9,33 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white">Icon Accordion</h1>
 
+<h2 class="text-2xl w-full dark:text-white my-4">Default Props: AccordionItem</h2>
+
+```js
+let id
+```
+
+<h2 class="text-2xl w-full dark:text-white my-4">Default Props: Accordion</h2>
+
+```js
+let id
+let duration=0.2
+let easing="ease"
+```
+
+<h2 class="text-2xl w-full dark:text-white my-4">Slot names: AccordionItem</h2>
+
+```js
+header
+body
+```
+
 <p class="dark:text-white my-4">Add id 1,2,3,... to AccordionItem component.</p>
 
 <div
   class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6"
 >
-  <Accordion>
+  <Accordion duration="0.5">
     <AccordionItem id="1">
       <h2 slot="header">My Header 1</h2>
       <div slot="body">

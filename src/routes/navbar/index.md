@@ -12,7 +12,30 @@ layout: doc
 ```svelte
 <script>
   import { Navbar } from "svelte-flow";
+  let sitename = "Svelte-flow";
+  let logo = "/images/mkdir-logo.webp";
+  let alt = "Svelte-flow";
+  let textsize = "text-lg";
+  let menus = [
+    {
+      name: "Home",
+      link: "/",
+      rel: undefined,
+    },
+    {
+      name: "GitHub",
+      link: "https://github.com/shinokada/svelte-utterances",
+      rel: undefined,
+    },
+    {
+      name: "Design",
+      link: "https://svelte-flow.vercel.app",
+      rel: undefined,
+    },
+  ];
 </script>
+
+<Navbar {menus} {sitename} {alt} {logo} {textsize} />
 ```
 
 <h2 class="text-lg mt-8 dark:text-white">Text Size text-xs</h2>
