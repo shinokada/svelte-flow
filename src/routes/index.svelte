@@ -123,7 +123,7 @@
       img="/images/navbar.webp"
       alt="Navbars"
       header="NAVBAR"
-      link="/navbar"
+      link="/navbars"
       btnLabel="Go to Navbars"
     />
   </div>
