@@ -14,7 +14,7 @@ layout: doc
 ```js
 let textSize = "text-sm";
 let name = "Read more";
-let color = "purple2blue"; // cyan2blue| green2blue | purple2pink | pink2orange | teal2lime | red2yellow | pink | puple
+let color = "purple2blue"; // cyan2blue| green2blue | purple2pink | pink2orange | teal2lime | red2yellow
 ```
 
 <h2 class="text-2xl w-full dark:text-white mt-8">text-sm</h2>
