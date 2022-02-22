@@ -24,33 +24,42 @@
     topMenus,
   } from "./items.js";
 
-  let asideClass =
-    "absolute w-auto bg-white pt-8 shadow-lg z-50 px-4 h-full bg-white dark:bg-gray-800";
+  // Navbar
+  let activeChildLi =
+    "block py-2 px-4 text-lg text-gray-700 hover:bg-gray-100 dark:text-white";
+  let childLi =
+    "block py-2 pr-4 pl-3  text-gray-700 border-b border-gray-100 md:border-0 md:p-0 text-lg dark:text-white";
   let headerClass =
     "px-8 bg-white h-16 pt-3 text-gray-600 border-b-2 bg-white dark:bg-gray-800 dark:text-white dark:border-b-1";
   let siteName = "Svelte Flow";
   let navClass =
-    "py-0 px-8 bg-white text-sm bg-white dark:bg-gray-800 dark:text-white";
+    "py-0 px-8 bg-white text-lg bg-white dark:bg-gray-800 dark:text-white";
   let navDivClass = "pb-4";
   let navDivClasslast = "pb-24";
   let siteClass = " pt-1.5 pl-12 w-full";
   let siteText = "text-lg";
   let topli =
-    "block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50  md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white text-lg z-50 bg-white dark:bg-gray-800 dark:border-0";
-  let topul =
-    "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium pt-1 dark:bg-gray-800";
+    "block py-2 pr-4 pl-3 text-gray-700 md:border-0  md:p-0 dark:text-gray-300  dark:hover:bg-gray-700  text-lg z-50 dark:bg-gray-800 dark:border-0";
   let topMenuDiv =
     "container flex flex-wrap justify-end items-center mx-auto dark:bg-gray-800";
+  let topul =
+    "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium pt-1 dark:bg-gray-800";
+  // Others
+  let asideClass =
+    "absolute w-auto bg-white pt-8 shadow-lg z-50 px-4 h-full bg-white dark:bg-gray-800";
   let darkmodebtn =
-    "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 fixed left-2 top-20 z-50";
+    "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5 fixed left-2 top-20 z-50";
+  // activeDropdownDiv, activeChildLi, buttonClass, dropdownLi
 </script>
 
 <Navbar
-  {siteName}
+  {activeChildLi}
+  {childLi}
   {headerClass}
-  {topMenus}
   {siteClass}
+  {siteName}
   {siteText}
+  {topMenus}
   {topMenuDiv}
   {topul}
   {topli}

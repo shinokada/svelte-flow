@@ -61,10 +61,10 @@ export let svelteflows = [
 ];
 
 export let topMenus = [
-  { route: "/", name: "Home" },
-  { route: "/about", name: "About" },
+  { link: "/", name: "Home" },
+  { link: "/about", name: "About" },
   {
-    route: "https://github.com/shinokada/svelte-flow",
+    link: "https://github.com/shinokada/svelte-flow",
     name: "GitHub"
   },
 ];
