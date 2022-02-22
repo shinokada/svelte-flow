@@ -7,46 +7,54 @@ layout: doc
 
   let menus = [
     {
+      id: 1,
       name: "Home",
       link: "/",
-      rel: "external",
+      rel: "",
     },
     {
+      id: 2,
       name: "Cards",
       link: "/cards",
-      rel: "external",
+      rel: "",
       child: [
         {
+          id: 3,
           name: "Card",
           link: "/cards/card",
-          rel: "external",
+          rel: "",
         },
         {
+          id: 4,
           name: "CTA Card",
           link: "/cards/cta",
-          rel: "external",
+          rel: "",
         },
         {
+          id: 5,
           name: "Ecommerce Card",
           link: "/cards/ecommerce",
-          rel: "external",
+          rel: "",
         },
       ],
     },
     {
+      id: 6,
       name: "Modals",
       link: "/",
-      rel: "external",
+      rel: "",
       child: [
         {
+          id: 7,
           name: "Small",
           link: "/modals/small",
-          rel: "external",
+          rel: "",
         },
         {
+          id: 8,
           name: "Medium",
           link: "/modals/medium",
-          rel: "external",
+          rel: "",
         },
       ],
     },
@@ -68,59 +76,64 @@ layout: doc
 <h1 class="text-3xl w-full dark:text-white py-8">Dropdown Navbar Setup</h1>
 
 ```svelte
-import { DropdownNavbar } from "svelte-flow";
+<script>
+  import { DropdownNavbar } from "svelte-flow";
 
-let menus = [
-  {
-    name: "Home",
-    link: "/",
-    rel: "external",
-  },
-  {
-    name: "Alerts",
-    link: "/alerts",
-    rel: "external",
-  },
-  {
-    name: "Buttons",
-    link: "/buttons",
-    rel: "external",
-    child: [
-      {
-        name: "Card",
-        link: "/cards/card",
-        rel: "external",
-      },
-      {
-        name: "CTA Card",
-        link: "/cards/cta",
-        rel: "external",
-      },
-      {
-        name: "Ecommerce Card",
-        link: "/cards/ecommerce",
-        rel: "external",
-      },
-    ],
-  },
-  {
-    name: "Modals",
-    link: "/",
-    rel: "external",
-    child: [
-      {
-        name: "Small",
-        link: "/modals/small",
-        rel: "external",
-      },
-      {
-        name: "Medium",
-        link: "/modals/medium",
-        rel: "external",
-      },
-    ],
-  },
-];
+  let menus = [
+    {
+      id: 1,
+      name: "Home",
+      link: "/",
+      rel: "",
+    },
+    {
+      id: 2,
+      name: "Cards",
+      link: "/cards",
+      rel: "",
+      child: [
+        {
+          id: 3,
+          name: "Card",
+          link: "/cards/card",
+          rel: "",
+        },
+        {
+          id: 4,
+          name: "CTA Card",
+          link: "/cards/cta",
+          rel: "",
+        },
+        {
+          id: 5,
+          name: "Ecommerce Card",
+          link: "/cards/ecommerce",
+          rel: "",
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: "Modals",
+      link: "/",
+      rel: "",
+      child: [
+        {
+          id: 7,
+          name: "Small",
+          link: "/modals/small",
+          rel: "",
+        },
+        {
+          id: 8,
+          name: "Medium",
+          link: "/modals/medium",
+          rel: "",
+        },
+      ],
+    },
+  ];
+</script>
 
 <DropdownNavbar textsize="text-lg" {menus} />
 ```
