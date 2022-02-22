@@ -23,7 +23,15 @@ let name = "Read more";
 let type = "blue";
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Button handler</h2>
+<p class="dark:text-white">Import Button in the script tag.</p>
+
+```svelte
+<script>
+  import { Button } from "svelte-flow";
+</script>
+```
+
+<h1 class="text-3xl w-full text-gray-900 dark:text-white">Button handler</h1>
 
 <p class="dark:text-white">You can use handleClick to Button component.</p>
 
@@ -47,13 +55,6 @@ let type = "blue";
 <Button name="Button text-xs" on:handleClick={btn2} textSize="text-xs" />
 </div>
 
-<p class="dark:text-white">Import Button in the script tag.</p>
-
-```svelte
-<script>
-  import { Button } from "svelte-flow";
-</script>
-```
 
 <h1 class="text-3xl w-full dark:text-white my-8">Size xs Default Buttons</h1>
 
