@@ -7,7 +7,7 @@
 </script>
 
 <div class="max-w-3xl mx-auto pb-32">
-  <div class="container mt-4 flex flex-wrap mx-auto pt-16">
+  <div class="container flex flex-wrap mx-auto pt-8">
     <slot />
   </div>
   <div class="container my-16 mx-auto">

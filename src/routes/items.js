@@ -8,9 +8,16 @@ export let accordions = [
 //   { url: "alerts", name: "Alerts" },
 // ];
 
-// export let buttons = [
-//   { url: "buttons", name: "Buttons" },
-// ];
+export let buttons = [
+  { url: "buttons/setup", name: "Setup" },
+  { url: "buttons/default", name: "Default" },
+  { url: "buttons/colored-shadow", name: "Colored shadow" },
+  { url: "buttons/gradient-duotone", name: "Gradient duotone" },
+  { url: "buttons/gradient-monochrome", name: "Gradient monochrome" },
+  { url: "buttons/gradient-outline", name: "Gradient outline" },
+  { url: "buttons/outlined", name: "Outlined" },
+  { url: "buttons/rounded", name: "Rounded" },
+];
 
 export let cards = [
   { url: "cards/card", name: "Card" },

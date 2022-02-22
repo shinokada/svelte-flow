@@ -12,7 +12,7 @@
   import {
     accordions,
     // alerts,
-    // buttons,
+    buttons,
     cards,
     // darkmode,
     // icons,
@@ -82,6 +82,9 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/buttons">Buttons</a></h3>
+    {#each buttons as { url, name, rel }}
+      <SidebarList {url} {name} {rel} />
+    {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/cards">Cards</a></h3>
@@ -120,7 +123,7 @@
 
 <main class="container mx-auto px-4 pt-4">
   <DarkMode btnClass={darkmodebtn} />
-  <div class="mt-8 w-full">
+  <div class="mt-4 w-full">
     <slot />
   </div>
 </main>
