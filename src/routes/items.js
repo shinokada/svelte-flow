@@ -51,8 +51,8 @@ export let modals = [
 ];
 
 export let navbar = [
-  { url: "navbar", name: "Navbar" },
-  // { url: "navbar/dropdown", name: "Dropdown Navbar" },
+  { url: "navbar/default", name: "Navbar" },
+  { url: "navbar/dropdown", name: "Dropdown" },
 ];
 
 export let tabs = [

@@ -108,7 +108,7 @@
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4">Navbar</h3>
+    <h3 class="text-base pb-4"><a href="/navbars">Navbar</a></h3>
     {#each navbar as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}
