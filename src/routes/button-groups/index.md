@@ -4,16 +4,22 @@ layout: doc
 
 <script>
   import {ButtonGroup, ButtonGroupLink, ButtonGroupOutline} from 'svelte-flow'
-    import {UserCircleSolidIcon, AdjustmentsSolidIcon, CloudDownloadSolidIcon} from "@codewithshin/svelte-heroicons"
+    import {UserCircleIconSolid, AdjustmentsIconSolid, CloudDownloadIconSolid} from "@codewithshin/svelte-heroicons"
   let buttons1 = [
   {
     name: "Profile",
+    link:"/",
+    icon: UserCircleIconSolid
   },
   {
     name: "Settings",
+    link:"/",
+    icon: AdjustmentsIconSolid
   },
   {
     name: "Messages",
+    link:"/",
+    icon: CloudDownloadIconSolid
   },
 ];
   let buttons2 = [
