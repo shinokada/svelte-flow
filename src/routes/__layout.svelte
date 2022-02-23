@@ -14,6 +14,7 @@
     // alerts,
     badges,
     buttons,
+    // buttonGroups,
     cards,
     // darkmode,
     // icons,
@@ -86,6 +87,11 @@
     {#each badges as { url, name, rel }}
       <SidebarList {url} {name} {rel} />
     {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4">
+      <a href="/button-groups/index">Button groups</a>
+    </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/buttons">Buttons</a></h3>

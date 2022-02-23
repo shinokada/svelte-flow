@@ -24,6 +24,10 @@ export let buttons = [
   { url: "buttons/rounded", name: "Rounded" },
 ];
 
+// export let buttonGroups = [
+//   { url: "buttongroups/index", name: "Button groups" }
+// ];
+
 export let cards = [
   { url: "cards/card", name: "Card" },
   { url: "cards/ecommerce", name: "E-commerce" },
