@@ -7,7 +7,7 @@ layout: doc
   import { AccordionItem } from "svelte-flow";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Icon Accordion</h1>
+<h1 class="text-3xl w-full dark:text-white">Accordion</h1>
 
 <h2 class="text-2xl w-full dark:text-white my-4">Default Props: AccordionItem</h2>
 
