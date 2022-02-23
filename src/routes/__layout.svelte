@@ -90,7 +90,7 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
-      <a href="/button-groups/index">Button groups</a>
+      <a href="/button-groups">Button groups</a>
     </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
