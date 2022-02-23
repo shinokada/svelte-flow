@@ -12,6 +12,7 @@
   import {
     accordions,
     // alerts,
+    badges,
     buttons,
     cards,
     // darkmode,
@@ -79,6 +80,12 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/alerts">Alerts</a></h3>
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4"><a href="/badges">Badges</a></h3>
+    {#each badges as { url, name, rel }}
+      <SidebarList {url} {name} {rel} />
+    {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/buttons">Buttons</a></h3>

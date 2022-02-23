@@ -7,6 +7,11 @@ export let accordions = [
 // export let alerts = [
 //   { url: "alerts", name: "Alerts" },
 // ];
+export let badges = [
+  { url: "badges/default", name: "Badges" },
+  { url: "badges/badge-icon", name: "Badges with icon" },
+  { url: "badges/badge-link", name: "Badges with link" },
+];
 
 export let buttons = [
   { url: "buttons/setup", name: "Setup" },
