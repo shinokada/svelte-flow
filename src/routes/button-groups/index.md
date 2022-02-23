@@ -78,7 +78,7 @@ layout: doc
 <h2 class="text-2xl w-full text-gray-900 dark:text-white">Props</h2>
 
 ```svelte
-let buttons1 = [
+let buttons = [
   {
     name: "Profile",
     link:"/", // optional
