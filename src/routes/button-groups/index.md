@@ -4,6 +4,7 @@ layout: doc
 
 <script>
   import {ButtonGroup, ButtonGroupLink, ButtonGroupOutline} from 'svelte-flow'
+    import {UserCircleSolidIcon, AdjustmentsSolidIcon, CloudDownloadSolidIcon} from "@codewithshin/svelte-heroicons"
   let buttons1 = [
   {
     name: "Profile",
@@ -37,6 +38,7 @@ layout: doc
 ```svelte
 <script>
   import {ButtonGroup, ButtonGroupLink, ButtonGroupOutline} from 'svelte-flow'
+
   let buttons1 = [
   {
     name: "Profile",
@@ -85,6 +87,18 @@ let buttons = [
 ```
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white">Default</h2>
+
+<div
+  class="container flex flex-wrap justify-evenly rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
+<ButtonGroup buttons={buttons1}/>
+</div>
+
+
+```svelte
+<ButtonGroup buttons={buttons1}/>
+```
+
+<h2 class="text-2xl w-full text-gray-900 dark:text-white">Default with icon</h2>
 
 <div
   class="container flex flex-wrap justify-evenly rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
