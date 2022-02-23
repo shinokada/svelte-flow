@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import {ButtonGroup, ButtonGroupLink, ButtonGroupOutline} from 'svelte-flow'
+  import {ButtonGroup, ButtonGroupOutline} from 'svelte-flow'
     import {UserCircleIconSolid, AdjustmentsIconSolid, CloudDownloadIconSolid} from "@codewithshin/svelte-heroicons"
   let buttons1 = [
   {
@@ -43,7 +43,7 @@ layout: doc
 
 ```svelte
 <script>
-  import {ButtonGroup, ButtonGroupLink, ButtonGroupOutline} from 'svelte-flow'
+  import {ButtonGroup, ButtonGroupOutline} from 'svelte-flow'
 
   let buttons1 = [
   {
@@ -120,11 +120,11 @@ let buttons = [
 
 <div
   class="container flex flex-wrap justify-evenly rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<ButtonGroupLink buttons={buttons2}/>
+
 </div>
 
 ```svelte
-<ButtonGroupLink buttons={buttons2}/>
+
 ```
 
 <h2 class="text-2xl w-full dark:text-white mt-8">Outline</h2>
