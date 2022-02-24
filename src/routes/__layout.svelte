@@ -51,6 +51,8 @@
     "absolute w-auto bg-white pt-8 shadow-lg z-50 px-4 h-full bg-white dark:bg-gray-800";
   let darkmodebtn =
     "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5 fixed left-2 top-20 z-50";
+  let sideBarListClass =
+    "border-b border-gray-400 dark:border-gray-500 mb-2 px-4 text-base";
   // activeDropdownDiv, activeChildLi, buttonClass, dropdownLi
 </script>
 
@@ -68,68 +70,81 @@
 />
 <Aside {asideClass}>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/" rel="">Svelte-Flow</a></h3>
+    <h3 class="text-base pb-4"><a href="/" rel="external">Svelte-Flow</a></h3>
     {#each svelteflows as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
-  </Nav>
-  <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/accordions">Accordions</a></h3>
-    {#each accordions as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
-    {/each}
-  </Nav>
-  <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/alerts">Alerts</a></h3>
-  </Nav>
-  <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/badges">Badges</a></h3>
-    {#each badges as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
-      <a href="/button-groups">Button groups</a>
+      <a href="/accordions" rel="external">Accordions</a>
+    </h3>
+    {#each accordions as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4"><a href="/alerts" rel="external">Alerts</a></h3>
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4"><a href="/badges" rel="external">Badges</a></h3>
+    {#each badges as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4">
+      <a href="/button-groups" rel="external">Button groups</a>
     </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/buttons">Buttons</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/buttons" rel="external">Buttons</a>
+    </h3>
     {#each buttons as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/cards">Cards</a></h3>
+    <h3 class="text-base pb-4"><a href="/cards" rel="external">Cards</a></h3>
     {#each cards as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/darkmode">Dark mode</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/darkmode" rel="external">Dark mode</a>
+    </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/icons">Icons</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/dropdowns" rel="external">Dropdowns</a>
+    </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/list-group">List group</a></h3>
+    <h3 class="text-base pb-4"><a href="/icons" rel="external">Icons</a></h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/modals">Modals</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/list-group" rel="external">List group</a>
+    </h3>
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4"><a href="/modals" rel="external">Modals</a></h3>
     {#each modals as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/navbars">Navbar</a></h3>
+    <h3 class="text-base pb-4"><a href="/navbars" rel="external">Navbar</a></h3>
     {#each navbar as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} navDivClass={navDivClasslast}>
-    <h3 class="text-base pb-4"><a href="/tabs">Tabs</a></h3>
+    <h3 class="text-base pb-4"><a href="/tabs" rel="external">Tabs</a></h3>
     {#each tabs as { url, name, rel }}
-      <SidebarList {url} {name} {rel} />
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
 </Aside>

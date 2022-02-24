@@ -70,12 +70,32 @@
   </div>
   <div class="p-4">
     <Card
+      img="/images/badges.webp"
+      alt="Badges"
+      header="BADGES"
+      link="/badges"
+      btnColor="yellow"
+      btnLabel="Go to Badges"
+    />
+  </div>
+  <div class="p-4">
+    <Card
       img="/images/buttons.webp"
       alt="Buttons"
       header="BUTTONS"
       link="/buttons"
-      btnColor="yellow"
+      btnColor="red"
       btnLabel="Go to Buttons"
+    />
+  </div>
+  <div class="p-4">
+    <Card
+      img="/images/buttongroups.webp"
+      alt="Button Groups"
+      header="BUTTON GROUPS"
+      link="/button-groups"
+      btnColor="indigo"
+      btnLabel="Go to Button groups"
     />
   </div>
   <div class="p-4">
@@ -96,6 +116,16 @@
       link="/darkmode"
       btnColor="gray"
       btnLabel="Go to Darkmode"
+    />
+  </div>
+  <div class="p-4">
+    <Card
+      img="/images/dropdowns.webp"
+      alt="Dropdowns"
+      header="DROPDOWNS"
+      link="/dropdowns"
+      btnColor="pink"
+      btnLabel="Go to Dropdowns"
     />
   </div>
   <div class="p-4">

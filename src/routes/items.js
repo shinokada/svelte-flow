@@ -1,3 +1,8 @@
+export let svelteflows = [
+  { url: "getting-started", name: "Getting Started" },
+  { url: "about", name: "About" },
+];
+
 export let accordions = [
   { url: "accordions/default", name: "Accordion" },
   { url: "accordions/icon-accordion", name: "Icon accordion" },
@@ -71,10 +76,7 @@ export let tabs = [
   { url: "tabs/pilltabs", name: "Pilltabs" },
 ];
 
-export let svelteflows = [
-  { url: "getting-started", name: "Getting Started" },
-  { url: "about", name: "About" },
-];
+
 
 export let topMenus = [
   { link: "/", name: "Home" },
