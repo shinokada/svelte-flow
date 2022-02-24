@@ -60,8 +60,8 @@ export let modals = [
 ];
 
 export let navbar = [
-  { url: "navbar/default", name: "Navbar" },
-  { url: "navbar/dropdown", name: "Dropdown" },
+  { url: "navbars/default", name: "Navbar" },
+  { url: "navbars/dropdown", name: "Dropdown" },
 ];
 
 export let tabs = [
