@@ -17,21 +17,22 @@
             <span class="block xl:inline">Svelte Flow </span>
             <span class="block text-indigo-600 xl:inline">UI Component</span>
           </h1>
-          <p
-            class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg 
-            md:max-w-xl sm:max-w-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0 dark:text-white"
+          <h2
+            class="mt-3 text-2xl text-gray-500 sm:mt-5 sm:text-2xl 
+            md:max-w-xl sm:max-w-lg sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 dark:text-white"
           >
             Svelte-flow has moved to <a
-              href="https://flowbite-svelte.vercel.app/">Flowbite-Svelte</a
+              href="https://flowbite-svelte.vercel.app/"
+              class="underline">Flowbite-Svelte</a
             >.
-          </p>
+          </h2>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="mt-3 sm:mt-0 sm:ml-3">
               <a
-                href="/getting-started"
+                href="https://flowbite-svelte.vercel.app/"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
               >
-                Getting started
+                Go to Flowbite-Svelte
               </a>
             </div>
           </div>
