@@ -130,6 +130,16 @@
   </div>
   <div class="p-4">
     <Card
+      img="/images/icons.webp"
+      alt="Icons"
+      header="ICONS"
+      link="/icons"
+      btnColor="green"
+      btnLabel="Go to Icons"
+    />
+  </div>
+  <div class="p-4">
+    <Card
       img="/images/list-group.webp"
       alt="List group"
       header="LIST-GROUP"
